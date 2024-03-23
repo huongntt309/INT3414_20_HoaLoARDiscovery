@@ -1,0 +1,34 @@
+{
+    "English": {
+        "discover_hoa_lo_prison": "Discover Hoa Lo Prison",
+        "choose_favorite_destination": "Choose your favorite destination",
+        "tour_map": "Tour map",
+        "home": "Home",
+        "map": "Map",
+        "setting": "Setting",
+        "language": "Language",
+        "confirm": "Confirm",
+        "view_detail": "View Detail"
+    },
+    "Vietnamese": {
+        "discover_hoa_lo_prison": "Khám phá nhà tù Hỏa Lò",
+        "choose_favorite_destination": "Hãy chọn một địa điểm bạn yêu thích",
+        "tour_map": "Sơ đồ tham quan",
+        "home": "Trang chủ",
+        "map": "Bản đồ",
+        "setting": "Cài đặt",
+        "language": "Ngôn ngữ",
+        "confirm": "Xác nhận"
+    },
+    "French": {
+        "discover_hoa_lo_prison": "Découvrir la prison de Hoa Lo",
+        "choose_favorite_destination": "Choisissez votre destination préférée",
+        "tour_map": "Carte du tour",
+        "home": "Accueil",
+        "map": "Carte",
+        "setting": "Paramètres",
+        "language": "Langue",
+        "confirm": "Confirmer",
+        "view_detail": "Voir le détail"
+    }
+}

@@ -1,25 +1,24 @@
 import 'package:flutter/material.dart';
-import 'navbar.dart';
+import '../components/navbar_home.dart';
+import '../components/appbar_home.dart';
+import '../utils/language_manager.dart'; // Import LanguageManager
 
-class MapScreen extends StatelessWidget {
+class MapScreen extends StatefulWidget {
+  @override
+  _MapScreenState createState() => _MapScreenState();
+}
+
+class _MapScreenState extends State<MapScreen> {
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Color(0xFFFDEEDB), // Đặt màu nền cho toàn bộ màn hình
-      extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        backgroundColor: Colors.brown,
-        title: Text(
-          'Hoa Lo AR Discovery',
-          style: TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-        centerTitle: true, // Căn giữa tiêu đề
-        elevation: 0,
-      ),
+    Map<String, dynamic> languageData = LanguageManager().languageData; // Lấy dữ liệu ngôn ngữ từ LanguageManager
+    String selectedLanguage = LanguageManager().selectedLanguage; // Lấy ngôn ngữ được chọn từ LanguageManager
 
+    return Scaffold(
+      backgroundColor: Color(0xFFFDEEDB),
+      extendBodyBehindAppBar: true,
+      appBar: CustomAppBar(),
       body: Container(
         height: double.infinity,
         width: double.infinity,
@@ -32,7 +31,9 @@ class MapScreen extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 24),
                   child: Text(
-                    "Sơ đồ tham quan",
+                    languageData.isNotEmpty
+                        ? languageData[selectedLanguage]['tour_map']
+                        : 'Tour Map', // Sử dụng dữ liệu ngôn ngữ từ LanguageManager
                     style: TextStyle(
                       color: Colors.brown,
                       fontSize: 34,

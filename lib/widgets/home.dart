@@ -1,6 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'navbar.dart'; // Import navbar.dart
+import '../components/navbar_home.dart'; // Import navbar.dart
+import '../components/appbar_home.dart'; // Import CustomAppBar
+import '../utils/language_manager.dart'; // Import LanguageManager
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -15,20 +17,14 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    Map<String, dynamic> languageData = LanguageManager()
+        .languageData; // Lấy dữ liệu ngôn ngữ từ LanguageManager
+    String selectedLanguage = LanguageManager()
+        .selectedLanguage; // Lấy ngôn ngữ được chọn từ LanguageManager
+
     return Scaffold(
         extendBodyBehindAppBar: true,
-        appBar: AppBar(
-          backgroundColor: Colors.brown,
-          title: Text(
-            'Hoa Lo AR Discovery',
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          centerTitle: true, // Căn giữa tiêu đề
-          elevation: 0,
-        ),
+        appBar: CustomAppBar(),
         body: Container(
           height: double.infinity,
           width: double.infinity,
@@ -39,17 +35,25 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const SizedBox(height: 20),
-                  const Padding(
+                  Padding(
                       padding: EdgeInsets.symmetric(horizontal: 24),
-                      child: Text("Khám phá các di tích Hỏa Lò",
-                          style: TextStyle(
+                      child: Text(
+                          languageData.isNotEmpty
+                              ? languageData[selectedLanguage]
+                                  ['discover_hoa_lo_prison']
+                              : 'Discover Hoa Lo Prison',
+                          style: const TextStyle(
                               color: Colors.brown,
                               fontSize: 34,
                               fontWeight: FontWeight.w600))),
-                  const Padding(
+                  Padding(
                     padding: EdgeInsets.symmetric(horizontal: 24),
-                    child: Text("Hãy chọn một địa điểm bạn yêu thích",
-                        style: TextStyle(
+                    child: Text(
+                        languageData.isNotEmpty
+                            ? languageData[selectedLanguage]
+                                ['choose_favorite_destination']
+                            : 'Choose your favorite destination',
+                        style: const TextStyle(
                             color: Colors.brown,
                             fontSize: 16,
                             fontWeight: FontWeight.w300)),
@@ -144,8 +148,8 @@ class SamosaCard extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                       fixedSize: const Size(double.maxFinite, 44)),
-                  child: const Text(
-                    "Xem chi tiết",
+                  child: Text(
+                    "View Details",
                     style: TextStyle(
                         color: Colors.grey,
                         fontSize: 16,

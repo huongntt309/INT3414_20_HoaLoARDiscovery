@@ -19,6 +19,7 @@ dependencies:
   dots_indicator: ^3.0.0
   carousel_slider: ^4.2.1
   floating_bottom_navigation_bar: ^1.5.2
+  easy_settings: ^1.0.0
 
 dev_dependencies:
   flutter_test:

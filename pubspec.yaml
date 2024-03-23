@@ -17,6 +17,8 @@ dependencies:
   provider: ^6.0.0
   animate_do: ^3.1.2
   dots_indicator: ^3.0.0
+  carousel_slider: ^4.2.1
+  floating_bottom_navigation_bar: ^1.5.2
 
 dev_dependencies:
   flutter_test:
@@ -27,8 +29,11 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/image/intro1.png
-    - assets/image/intro2.png
-    - assets/image/intro3.png
-    - assets/image/intro4.png
+    - assets/image/intro/intro1.png
+    - assets/image/intro/intro2.png
+    - assets/image/intro/intro3.png
+    - assets/image/intro/intro4.png
+    - assets/image/home/background.png
+    - assets/image/map/map.jpg
+    - assets/image/map/map_vertical.jpg
   

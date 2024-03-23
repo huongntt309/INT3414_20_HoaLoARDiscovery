@@ -2,14 +2,14 @@ import 'package:animate_do/animate_do.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 
-class IntroScene extends StatefulWidget {
-  const IntroScene({super.key});
+class IntroScreen extends StatefulWidget {
+  const IntroScreen({super.key});
 
   @override
-  State<IntroScene> createState() => _IntroSceneState();
+  State<IntroScreen> createState() => _IntroScreenState();
 }
 
-class _IntroSceneState extends State<IntroScene> {
+class _IntroScreenState extends State<IntroScreen> {
   int _currentIndex = 0;
   final PageController _pageController = PageController();
   @override
@@ -52,6 +52,7 @@ class _IntroSceneState extends State<IntroScene> {
               PrimaryButton(
                 onTap: () {
                   if (_currentIndex == onboardingList.length - 1) {
+                    Navigator.pushReplacementNamed(context, '/home');
                   } else {
                     _pageController.nextPage(
                       duration: const Duration(milliseconds: 500),
@@ -272,7 +273,7 @@ List<Onboarding> onboardingList = [
     bgImage: AppAssets.kOnboardingThird,
     title: "Maison Centrale - Ha Noi",
     info:
-        'Nhà tù Hỏa Lò là biểu tượng cho tinh thần kiên cường, bất khuất của những người con Việt Nam yêu nước.',
+        'Nhà tù Hỏa Lò là biểu tượng cho tinh thần kiên cường, bất khuất của những người con Việt Nam yêu nước.\n Hãy cùng Hỏa Lò AR Discovery khám phá di tích nhà tù!',
   ),
 ];
 
@@ -290,7 +291,7 @@ class AppColors {
 }
 
 class AppAssets {
-  static String kOnboardingFirst = 'image/intro1.png';
-  static String kOnboardingSecond = 'image/intro2.png';
-  static String kOnboardingThird = 'image/intro3.png';
+  static String kOnboardingFirst = 'image/intro/intro1.png';
+  static String kOnboardingSecond = 'image/intro/intro2.png';
+  static String kOnboardingThird = 'image/intro/intro3.png';
 }

@@ -1,18 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:hoa_lo_ar_discovery/components/appbar_home.dart';
 import '../components/navbar_home.dart';
-import 'dart:convert';
-import 'package:flutter/services.dart';
 import '../utils/language_manager.dart'; // Import LanguageManager
 
 class SettingScreen extends StatefulWidget {
+  final Map<String, dynamic> languageData;
+
+  const SettingScreen({Key? key, required this.languageData}) : super(key: key);
+
   @override
   _SettingScreenState createState() => _SettingScreenState();
 }
 
 class _SettingScreenState extends State<SettingScreen> {
-  String _selectedLanguage = LanguageManager()
-      .selectedLanguage; // Sử dụng giá trị đã chọn từ LanguageManager
+  late String _selectedLanguage;
+
+  @override
+  void initState() {
+    super.initState();
+    _selectedLanguage = LanguageManager().selectedLanguage;
+  }
 
   // Hàm xử lý sự kiện khi người dùng nhấn nút xác nhận
   void _handleConfirmation() {
@@ -23,9 +30,6 @@ class _SettingScreenState extends State<SettingScreen> {
 
   @override
   Widget build(BuildContext context) {
-    Map<String, dynamic> languageData = LanguageManager()
-        .languageData; // Lấy dữ liệu ngôn ngữ từ LanguageManager
-
     return Scaffold(
       backgroundColor: Color(0xFFFDEEDB),
       extendBodyBehindAppBar: true,
@@ -41,8 +45,8 @@ class _SettingScreenState extends State<SettingScreen> {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 24),
                 child: Text(
-                  languageData.isNotEmpty
-                      ? languageData[_selectedLanguage]['setting']
+                  widget.languageData.isNotEmpty
+                      ? widget.languageData[_selectedLanguage]['setting']
                       : 'Setting',
                   style: TextStyle(
                     color: Colors.brown,
@@ -62,8 +66,9 @@ class _SettingScreenState extends State<SettingScreen> {
                         Icon(Icons.language, color: Colors.brown),
                         SizedBox(width: 8),
                         Text(
-                          languageData.isNotEmpty
-                              ? languageData[_selectedLanguage]['language']
+                          widget.languageData.isNotEmpty
+                              ? widget.languageData[_selectedLanguage]
+                                  ['language']
                               : 'Language',
                           style: TextStyle(
                             color: Colors.brown,
@@ -79,12 +84,10 @@ class _SettingScreenState extends State<SettingScreen> {
                       onChanged: (value) {
                         setState(() {
                           _selectedLanguage = value.toString();
-                          LanguageManager().selectedLanguage =
-                              _selectedLanguage;
                         });
                       },
-                      items: languageData.isNotEmpty
-                          ? languageData.keys.map((language) {
+                      items: widget.languageData.isNotEmpty
+                          ? widget.languageData.keys.map((language) {
                               return DropdownMenuItem(
                                 value: language,
                                 child: Row(
@@ -109,8 +112,8 @@ class _SettingScreenState extends State<SettingScreen> {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: _handleConfirmation,
         label: Text(
-          languageData.isNotEmpty
-              ? languageData[_selectedLanguage]['confirm']
+          widget.languageData.isNotEmpty
+              ? widget.languageData[_selectedLanguage]['confirm']
               : 'Xác nhận',
           style: TextStyle(color: Colors.white),
         ),

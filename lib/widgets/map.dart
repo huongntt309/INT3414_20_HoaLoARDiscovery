@@ -4,6 +4,10 @@ import '../components/appbar_home.dart';
 import '../utils/language_manager.dart'; // Import LanguageManager
 
 class MapScreen extends StatefulWidget {
+  final Map<String, dynamic>  languageData;
+
+  const MapScreen({Key? key, required this.languageData}) : super(key: key);
+
   @override
   _MapScreenState createState() => _MapScreenState();
 }
@@ -12,7 +16,6 @@ class _MapScreenState extends State<MapScreen> {
 
   @override
   Widget build(BuildContext context) {
-    Map<String, dynamic> languageData = LanguageManager().languageData; // Lấy dữ liệu ngôn ngữ từ LanguageManager
     String selectedLanguage = LanguageManager().selectedLanguage; // Lấy ngôn ngữ được chọn từ LanguageManager
 
     return Scaffold(
@@ -31,8 +34,8 @@ class _MapScreenState extends State<MapScreen> {
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 24),
                   child: Text(
-                    languageData.isNotEmpty
-                        ? languageData[selectedLanguage]['tour_map']
+                     widget.languageData.isNotEmpty
+                        ?  widget.languageData[selectedLanguage]['tour_map']
                         : 'Tour Map', // Sử dụng dữ liệu ngôn ngữ từ LanguageManager
                     style: TextStyle(
                       color: Colors.brown,

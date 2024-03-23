@@ -2,11 +2,11 @@
     {
         "id": "01",
         "images": [
-            "assets/image/cachot/cachot_01.jpg",
-            "assets/image/cachot/cachot_02.jpg",
-            "assets/image/cachot/cachot_03.jpg"
+            "image/item/cachot_01.jpg",
+            "image/item/cachot_02.jpg",
+            "image/item/cachot_03.jpg"
         ],
-        "video": "assets/videos/cachot.mp4",
+        "video": "videos/cachot.mp4",
         "vietnamese": {
             "name": "Cachot",
             "detail": "Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù.",
@@ -25,11 +25,34 @@
     {
         "id": "02",
         "images": [
-            "assets/image/nha_tu_nam/nha_tu_nam_01.jpg",
-            "assets/image/nha_tu_nam/nha_tu_nam_02.jpg",
-            "assets/image/nha_tu_nam/nha_tu_nam_03.jpg"
+            "image/item/trainam_01.jpg",
+            "image/item/trainam_02.jpg",
+            "image/item/trainam_03.jpg"
         ],
-        "video": "assets/videos/nha_tu_nam.mp4",
+        "video": "videos/nha_tu_nam.mp4",
+        "vietnamese": {
+            "name": "Nhà tù Nam",
+            "detail": "Nhà tù Nam được xây dựng từ năm 1899 đến 1902, với mục đích chính là giam giữ những phạm nhân nam.",
+            "addition_detail": "Nhà tù này là nơi giam giữ nhiều tù nhân nổi tiếng trong lịch sử đấu tranh của dân tộc Việt Nam.",
+            "videos_title": "Nhà tù Nam",
+            "video_detail": "Video giới thiệu về nhà tù Nam và những câu chuyện lịch sử của nó."
+        },
+        "english": {
+            "name": "Male Prison",
+            "detail": "Male Prison was built from 1899 to 1902, with the main purpose of detaining male prisoners.",
+            "additional_detail": "This prison is where many famous prisoners in the history of Vietnam's struggle are held.",
+            "videos_title": "Nam Prison",
+            "video_detail": "Video introducing Nam Prison and its historical stories."
+        }
+    },
+    {
+        "id": "03",
+        "images": [
+            "image/item/trainam_02.jpg",
+            "image/item/trainam_01.jpg",
+            "image/item/trainam_03.jpg"
+        ],
+        "video": "videos/nha_tu_nam.mp4",
         "vietnamese": {
             "name": "Nhà tù Nam",
             "detail": "Nhà tù Nam được xây dựng từ năm 1899 đến 1902, với mục đích chính là giam giữ những phạm nhân nam.",

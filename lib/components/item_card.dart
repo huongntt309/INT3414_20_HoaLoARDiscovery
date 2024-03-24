@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hoa_lo_ar_discovery/utils/database_manager.dart';
+import '../widgets/detail.dart';
 
 class ItemCard extends StatefulWidget {
   final VoidCallback onTap;
@@ -29,7 +30,7 @@ class _ItemCardState extends State<ItemCard> {
   @override
   Widget build(BuildContext context) {
     // Chọn dữ liệu ngôn ngữ phù hợp dựa trên `_selectedLanguage`
-    Map<String, dynamic> languageData = _selectedLanguage == 'Vietnamese'
+    Map<String, dynamic> itemTextData = _selectedLanguage == 'Vietnamese'
         ? widget.item.vietnamese
         : widget.item.english;
 
@@ -62,7 +63,7 @@ class _ItemCardState extends State<ItemCard> {
               ),
             ),
             Text(
-              languageData['name'],
+              itemTextData['name'],
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 20,
@@ -71,7 +72,7 @@ class _ItemCardState extends State<ItemCard> {
             ),
             const SizedBox(height: 5),
             Text(
-              languageData['detail'],
+              itemTextData['detail'],
               maxLines: 4,
               overflow: TextOverflow.ellipsis,
               style: const TextStyle(
@@ -82,7 +83,15 @@ class _ItemCardState extends State<ItemCard> {
             ),
             const Spacer(),
             ElevatedButton(
-              onPressed: widget.onTap,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreen(
+                        item: widget.item, selectedLanguage: _selectedLanguage),
+                  ),
+                );
+              },
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
@@ -100,6 +109,7 @@ class _ItemCardState extends State<ItemCard> {
                 ),
               ),
             ),
+
           ],
         ),
       ),

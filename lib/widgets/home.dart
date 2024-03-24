@@ -1,4 +1,3 @@
-import 'package:carousel_slider/carousel_controller.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:hoa_lo_ar_discovery/utils/database_manager.dart';
@@ -69,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 24),
+                  padding: const EdgeInsets.symmetric(horizontal: 24),
                   child: Text(
                     widget.languageData.isNotEmpty
                         ? widget.languageData[selectedLanguage]
@@ -119,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         .toList(),
                   )
                 else
-                  Center(
+                  const Center(
                     child: CircularProgressIndicator(), // Loading indicator
                   ),
               ],

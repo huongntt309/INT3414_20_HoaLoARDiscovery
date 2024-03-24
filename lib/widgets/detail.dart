@@ -30,46 +30,54 @@ class DetailScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               // Phần hiển thị hình ảnh
-              Container(
-                height: MediaQuery.of(context).size.height *
-                    0.4, // Chiếm 30% chiều cao của màn hình
-                child: Stack(
-                  children: [
-                    CarouselSlider(
-                      options: CarouselOptions(
-                        aspectRatio: 16 / 9, // Thay đổi tỷ lệ khung hình
-                        viewportFraction:
-                            0.9, // Chiếm 80% chiều rộng của màn hình
-                        enlargeCenterPage: true, // Phóng to ảnh ở giữa
-                        autoPlay: true, // Tự động chuyển đổi giữa các ảnh
-                        autoPlayInterval: Duration(
-                            seconds:
-                                2), // Thời gian giữa các lần chuyển ảnh (3 giây)
-                        autoPlayAnimationDuration: Duration(
-                            milliseconds:
-                                800), // Thời gian chuyển đổi giữa các ảnh (800 milliseconds)
+              Expanded(
+                flex: 2,
+                child: Container(
+                  height: MediaQuery.of(context).size.height *
+                      0.4, // Chiếm 30% chiều cao của màn hình
+                  child: Center(
+                    // Căn giữa cả ngang và dọc
+                    child: Container(
+                      width: MediaQuery.of(context).size.width *
+                          0.9, // Chiếm 90% chiều rộng của màn hình
+                      height: double.infinity, // Chiều cao tự động theo cha
+                      child: CarouselSlider(
+                        options: CarouselOptions(
+                          aspectRatio: 16 / 9, // Thay đổi tỷ lệ khung hình
+                          viewportFraction:
+                              0.9, // Chiếm 80% chiều rộng của màn hình
+                          enlargeCenterPage: true, // Phóng to ảnh ở giữa
+                          autoPlay: true, // Tự động chuyển đổi giữa các ảnh
+                          autoPlayInterval: Duration(
+                              seconds:
+                                  2), // Thời gian giữa các lần chuyển ảnh (3 giây)
+                          autoPlayAnimationDuration: Duration(
+                              milliseconds:
+                                  800), // Thời gian chuyển đổi giữa các ảnh (800 milliseconds)
+                        ),
+                        items: item.images.map((image) {
+                          return Builder(
+                            builder: (BuildContext context) {
+                              return ClipRRect(
+                                borderRadius:
+                                    BorderRadius.circular(15.0), // Bo góc
+                                child: Image.asset(
+                                  image,
+                                  fit: BoxFit.cover,
+                                ),
+                              );
+                            },
+                          );
+                        }).toList(),
                       ),
-                      items: item.images.map((image) {
-                        return Builder(
-                          builder: (BuildContext context) {
-                            return ClipRRect(
-                              borderRadius:
-                                  BorderRadius.circular(15.0), // Bo góc
-                              child: Image.asset(
-                                image,
-                                fit: BoxFit.cover,
-                              ),
-                            );
-                          },
-                        );
-                      }).toList(),
                     ),
-                  ],
+                  ),
                 ),
               ),
 
               // Phần hiển thị văn bản
               Expanded(
+                flex: 4,
                 child: SingleChildScrollView(
                   padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
                   child: Container(
@@ -111,7 +119,11 @@ class DetailScreen extends StatelessWidget {
         ),
       ),
 
-      bottomNavigationBar: CustomNavbarDetail(currentIndex: 0, databaseItem: item, language: selectedLanguage,),
+      bottomNavigationBar: CustomNavbarDetail(
+        currentIndex: 0,
+        databaseItem: item,
+        language: selectedLanguage,
+      ),
     );
   }
 }

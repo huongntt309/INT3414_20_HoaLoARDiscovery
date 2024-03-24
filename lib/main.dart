@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hoa_lo_ar_discovery/utils/database_manager.dart';
 import 'package:hoa_lo_ar_discovery/utils/language_manager.dart';
-import 'package:hoa_lo_ar_discovery/widgets/video.dart';
 import './widgets/home.dart';
 import './widgets/map.dart';
 import './widgets/intro.dart';

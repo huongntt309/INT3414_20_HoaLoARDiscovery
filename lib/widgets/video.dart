@@ -29,19 +29,22 @@ class VideoDetailScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               // Phần hiển thị video
-              Container(
-                padding: EdgeInsets.fromLTRB(
-                    20, 0, 20, 0), // Padding giống với phần hiển thị văn bản
-                child: ClipRRect(
+              Expanded(
+                flex: 2,
+                child: Container(
+                  padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                  child: ClipRRect(
                   borderRadius: BorderRadius.circular(15), // Bo góc
                   child: AspectRatio(
                     aspectRatio: 16 / 9,// Tỉ lệ khung hình của video, có thể điều chỉnh tùy thích
                     child: VideoPlayerHelper(videoPath: item.video),
+                    ),
                   ),
                 ),
               ),
               // Phần hiển thị văn bản
               Expanded(
+                flex: 2,
                 child: SingleChildScrollView(
                   padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
                   child: Container(
@@ -80,7 +83,7 @@ class VideoDetailScreen extends StatelessWidget {
           ),
         ),
       ),
-       bottomNavigationBar: CustomNavbarDetail(
+      bottomNavigationBar: CustomNavbarDetail(
         currentIndex: 1,
         databaseItem: item,
         language: selectedLanguage,

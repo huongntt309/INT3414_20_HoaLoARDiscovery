@@ -2,24 +2,22 @@
     {
         "id": "01",
         "images": [
-            "image/item/cachot_01.jpg",
-            "image/item/cachot_02.jpg",
-            "image/item/cachot_03.jpg"
+            "image/item/canh_cua_nha_tu.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "unknown",
         "vietnamese": {
-            "name": "Cachot",
-            "detail": "Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. ",
-            "addition_detail": "Nhà tù Hoả Lò từng được gọi với cái tên \"địa ngục trần gian\" giữa lòng Hà Nội.",
-            "video_title": "Ngục tù Cachot Hỏa Lò",
-            "video_detail": "Chia sẻ từ nhà văn \"Thép đen\" Đặng Chí Bình về ngục tù Cachot tại Hỏa Lò."
+            "name": "Cánh cửa nhà tù",
+            "detail": "Với biệt danh là “Địa ngục trần gian”, nhà tù là nơi thực dân Pháp dung nhiều thủ đoạn tàn ác đối với tù nhân. Chỉ cần bước chân qua cánh của gỗ lim nặng 1,6 tấn là sẽ nhận những cú tát trời giáng, bị gọng cùm, đánh đập trong các phòng biệt giam.",
+            "addition_detail": "",
+            "video_title": "unknown",
+            "video_detail": "unknown"
         },
         "english": {
             "name": "Cachot",
-            "detail": "Cachot is used to detain people who are punished for violating prison regulations.",
-            "additional_detail": "Hoa Lo Prison used to be called \"hell on earth\" in the heart of Hanoi.",
-            "video_title": "Cachot Hoa Lo Prison",
-            "video_detail": "Sharing from writer \"Black Steel\" Dang Chi Binh about Cachot prison in Hoa Lo."
+            "detail": "Prison Gate",
+            "additional_detail": "With the nickname 'Hell on Earth,' the prison was a place where the French colonizers employed various cruel tactics against the prisoners. Simply stepping through the 1.6-ton heavy teak doors would result in brutal beatings, being put in shackles, and subjected to assaults within the solitary confinement cells.",
+            "video_title": "unknown",
+            "video_detail": "unknown"
         }
     },
     {
@@ -67,5 +65,158 @@
             "video_title": "Nam Prison",
             "video_detail": "Video introducing Nam Prison and its historical stories."
         }
+    },
+    {
+        "id": "04",
+        "images": [
+            "image/item/cay_bang_tinh_nghia.jpg"
+        ],
+        "video": "unknown",
+        "vietnamese": {
+            "name": "Cây Bàng Tình Nghĩa",
+            "detail": "Theo như lời kể của một số cựu tù chính trị tại nhà tù Hỏa Lò, nguồn gốc của cây bàng bắt đầu từ trước năm 1930, khi những tù nhân bị kết án phải đi lao động vệ sinh bên tòa án. Họ đã thu thập những cây bàng mọc hoang trên các lùm cỏ và mang về trồng chúng trong sân của trại giam. Sau một thời gian, cây bàng đã lớn lên và trở nên gắn bó với nhiều thế hệ tù chính trị tại đây. Mỗi khi được ra ngoài, các tù nhân chính trị sẽ tập trung quanh cây bàng để vừa tận hưởng không khí trong lành vừa cùng nhau bàn bạc về những biện pháp chống lại chế độ tù đày của thực dân. ",
+            "addition_detail": "Gốc cây Bàng đã trở thành nơi chứng kiến cuộc sống thường nhật, lắng nghe lời chia sẻ, tâm tình về ước mơ, mục tiêu, lý tưởng và tình cảm của những người công sản. Bên cạnh đó, nó còn là một 'hòm thư bí mật' quan trọng để các tù nhân trao đổi thông tin, tuyên truyền tài liệu cách mạng. ",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        },
+        "english": {
+            "name": "weeping willow tree",
+            "detail": "According to the accounts of some former political prisoners at Hoa Lo Prison, the origin of the weeping willow tree dates back to before 1930 when prisoners were sentenced to perform sanitation labor near the courthouse. They gathered wild weeping willow saplings from grassy patches and brought them back to plant in the prison yard. Over time, the weeping willow trees grew and became associated with many generations of political prisoners here. Whenever allowed outside, political prisoners would gather around the weeping willow tree to enjoy the fresh air and discuss resistance measures against the colonial regime's oppressive policies.",
+            "additional_detail": "The roots of the weeping willow tree have become a witness to daily life, listening to shared thoughts and feelings about dreams, goals, ideals, and emotions of communist individuals. Additionally, it serves as an important secret mailbox for prisoners to exchange information and disseminate revolutionary documents.",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        }
+    },
+    {
+        "id": "05",
+        "images": [
+            "image/item/cum_chan.jpg"
+        ],
+        "video": "unknown",
+        "vietnamese": {
+            "name": "Cùm chân",
+            "detail": "Đây là loại cùm chân, cấu tạo gồm 2 phần: Phần trên bằng sắt, phần dưới bằng gỗ. Loại cùm này được thực dân Pháp sử dụng trong các phòng giam của khu xà lim tử hình.",
+            "addition_detail": "",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        },
+        "english": {
+            "name": "foot shackle",
+            "detail": "This is a type of foot shackle, consisting of two parts: an iron upper part and a wooden lower part. The French colonizers used this type of shackle in the prison cells of the guillotine area.",
+            "additional_detail": "",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        }
+    },
+    {
+        "id": "06",
+        "images": [
+            "image/item/dia_thia.jpg",
+            "image/item/bat.jpg"
+        ],
+        "video": "unknown",
+        "vietnamese": {
+            "name": "Bát, Đĩa và Thìa",
+            "detail": "Với lý do lo sợ tù nhân sử dụng bát, đũa, thìa làm vũ khí chống lại cai ngục, giám thị trong các cuộc đấu tranh, Giám ngục Hỏa Lò đã ra quy định cấm tù nhân sử dụng bát, đũa, thìa trong các bữa ăn hàng ngày. Đến bữa ăn, cơm và thức ăn của tù nhân được đựng trong các máng gỗ và chậu tôn (gọi là Lập là).",
+            "addition_detail": "Để có được những đồ dùng sử dụng trong bữa ăn, tù nhân tranh thủ những khi đi lao động, làm các công việc tạp dịch hay khi được ra sân, họ tranh thủ nhặt những cành bàng thẳng, tạo thành những đôi đũa. Những miếng vỏ dừa mà binh lính nhà tù vứt bỏ đã được tù nhân đem về phòng giam, mài xuống sàn tạo thành những chiếc bát, đĩa, thìa để dùng trong các bữa ăn hàng ngày.",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        },
+        "english": {
+            "name": "bowls, dishes, and spoons",
+            "detail": "Due to fear that prisoners might use bowls, chopsticks, and spoons as weapons in resistance against the prison authority and guards, Hoa Lo Prison authorities implemented regulations prohibiting prisoners from using bowls, chopsticks, and spoons during their daily meals. Instead, the prisoners' rice and food were served in wooden troughs and tin pots (known as 'Lap la').",
+            "additional_detail": "To obtain utensils for meals, prisoners seized opportunities during labor tasks, miscellaneous duties, or when allowed outside, to gather straight branches of the weeping willow tree and fashion them into pairs of chopsticks. The coconut shells discarded by the prison guards were collected by prisoners and ground down on the floor to create bowls, plates, and spoons for use in daily meals.",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        }
+    },
+    {
+        "id": "07",
+        "images": [
+            "image/item/quan_ao.jpg"
+        ],
+        "video": "unknown",
+        "vietnamese": {
+            "name": "Quần Áo",
+            "detail": "Bộ quần áo này giám thị nhà tù phát cho những người đã thành án sử dụng trong thời gian bị giam giữ tại Nhà tù Hỏa Lò. Quần, áo được may bằng vải thô, màu trắng đục. Trên thân áo có in 2 chữ M.C (2 chữ viết tắt của từ Maison Centrale: Nhà tù Trung ương), áo không có khuy, thay vào đó là những nút thắt. Quần được may theo kiểu quần ta, ống rộng, cạp quần có luồn dây rút, trên ống quần cũng in 2 chữ M.C.",
+            "addition_detail": "",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        },
+        "english": {
+            "name": "Cloths",
+            "detail": "This set of clothing was issued by the prison authorities to those who had been sentenced to serve time at Hoa Lo Prison. The trousers and shirt are made of coarse white fabric. On the shirt, there are two letters M.C printed (abbreviating Maison Centrale, which means Central Prison). The shirt does not have buttons; instead, it has tie strings. The trousers are styled like baggy pants, with wide legs and a drawstring waistband, also bearing the M.C letters printed on the leg.",
+            "additional_detail": "",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        }
+    },
+    {
+        "id": "08",
+        "images": [
+            "image/item/che_do_an_uong_1.jpg",
+            "image/item/che_do_an_uong_2.jpg"
+        ],
+        "video": "unknown",
+        "vietnamese": {
+            "name": "Chế Độ Ăn Uống",
+            "detail": "Theo điều lệ của nhà tù, những phần ăn ở đây phải đảm bảo tiêu chuẩn. Tuy nhiên, cai ngục thông đồng với chủ thầu cắt xén khẩu phần ăn. Chúng cho tù nhân ăn những loại thực phẩm kém chất lượng, hết hạn sử dụng. Gạo hẩm, thóc sạn, cá khô vụn lẫn cá ươn, thịt bạt nhạc, rau già… Khẩu phần ăn được đụng trong máng gỗ gọi là “lập là”. Cai ngục không cho dùng bát, đũa vì sợ tù nhân dùng làm vũ khí. Từ đó, những tù nhân đã tạo ra những chiếc bát làm bằng vỏ quả dừa khô, đũa làm từ cành bàng…",
+            "addition_detail": "Chế độ ăn thiếu chất, mất vệ sinh đã dẫn tới nhiều tù nhân bị mắc các bệnh như kiết lỵ, sốt rét…Chỉ trong một năm 1920-1921 đã có tới 87 người tử vong.",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        },
+        "english": {
+            "name": "dietary regime",
+            "detail": "According to the regulations of the prison, the food provided here must meet certain standards. However, the prison administration colludes with the contracted food suppliers to cut corners on the food rations. They provide prisoners with low-quality and expired food items. The rice is moldy, the grains are of poor quality, dried fish is mixed with rotten fish, the meat is tough and rancid, and the vegetables are wilted...The food ration served in the wooden trough is called 'lập là.' The prison authorities do not allow the use of bowls and chopsticks for fear that prisoners might use them as weapons. As a result, the prisoners have improvised bowls made from dried coconut shells and chopsticks crafted from branches of the weeping willow tree...",
+            "additional_detail": "The inadequate and unhygienic diet has led to many prisoners contracting diseases such as dysentery and malaria. In just one year, from 1920 to 1921, there were reported 87 deaths among the prisoners.",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        }
+    },
+    {
+        "id": "09",
+        "images": [
+            "image/item/phi_cong_my_1.jpg",
+            "image/item/phi_cong_my_2.jpg"
+        ],
+        "video": "unknown",
+        "vietnamese": {
+            "name": "Phi công mỹ trong nhà tù Hỏa Lò",
+            "detail": "Trong thời gian Mỹ ném bom, bắn phá miền Bắc, đất nước còn đang gặp rất nhiều khó khăn, chính phủ Việt Nam vẫn đối xử nhân đạo, tạo điều kiện tốt nhất cho phi công Mỹ bị bắt sinh hoạt tại nhà tù. Tại đây, mỗi phi công đều được cấp phát đầy đủ đồ dùng cũng như được chữa trị vết thương, khám chữa bệnh chăm sóc hàng ngày. Trong trại giam, các phi công vẫn được tham gia hoạt động văn hóa: chơi thể thao, nghe tin tức qua đài, xem phim…Cùng với đó là vẫn được đón lễ Giáng sinh, lễ Tạ ơn và được tự chuẩn bị bữa ăn.",
+            "addition_detail": "Ngày 27/1/1973, sau khi hiệp định Paris được ký kết, Việt Nam đã trao trả toàn bộ phi công Mỹ bị bắt.",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        },
+        "english": {
+            "name": "American Pilots in Hoa Lo Prison",
+            "detail": "During the time when the United States was bombing and attacking the North, while the country was facing numerous difficulties, the Vietnamese government still treated the captured American pilots with humanity, providing the best possible conditions for them at the prison. Each pilot was provided with full necessities and received medical treatment for their wounds, as well as regular healthcare. In the prison camp, the pilots were allowed to engage in cultural activities such as sports, listening to news broadcasts, and watching movies. Additionally, they were still able to celebrate Christmas, Thanksgiving, and even prepare their own meals.",
+            "additional_detail": "On January 27, 1973, following the signing of the Paris Peace Accords, Vietnam released all the captured American pilots as part of the agreement.",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        }
+    },
+    {
+        "id": "10",
+        "images": [
+            "image/item/ca_chot_01.jpg",
+            "image/item/ca_chot_02.jpg",
+            "image/item/ca_chot_03.jpg"
+        ],
+        "video": "unknown",
+        "vietnamese": {
+            "name": "Cachot",
+            "detail": "Khu cachot là những ngục tối có diện tích chỉ vỏn vẹn 4m2 với phần tường quét sơn màu đen âm u. Nơi này không có ánh sáng và thiếu không khí, gây cho tù nhân cảm giác như mình đang ở trong một nấm mồ vô cùng bí bách.",
+            "addition_detail": "Chỗ nằm của tù nhân được xây bằng xi măng đặc biệt, khi nằm thì đầu dốc xuống thấp, gây ra hiện tượng máu dồn lên não. Chúng dùng cachot nhằm trừng phạt những người đã tổ chức đấu tranh, tuyên truyền cách mạng hay vượt ngục. Đồng chí Trường Chinh cũng đã từng bị bắt giam ở đây khi tổ chức mít tinh trong tù để kỷ niệm ngày Quốc tế Lao động",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        },
+        "english": {
+            "name": "Cachot",
+            "detail": "The solitary confinement cells, or 'khu cachot,' are dark, cramped spaces with an area as small as 4 square meters, with walls painted in a gloomy black color. These places lack light and ventilation, giving prisoners the sensation of being trapped in a suffocating tomb.",
+            "additional_detail": "The prisoner's sleeping area is constructed with special concrete, causing the head to be lower when lying down, leading to the pooling of blood in the brain. They used the cachots to punish those who organized resistance, revolutionary propaganda, or escape attempts. Comrade Trường Chinh himself was once detained here for organizing a rally in prison to commemorate International Workers' Day.",
+            "video_title": "unknown",
+            "video_detail": "unknown"
+        }
     }
+
 ]

@@ -17,9 +17,6 @@ class DetailScreen extends StatelessWidget {
     // Sử dụng dữ liệu của item và language để hiển thị chi tiết mục
     Map<String, dynamic> itemTextData =
         selectedLanguage == 'Vietnamese' ? item.vietnamese : item.english;
-    int currentIndex =
-        0; // Mặc định currentIndex là 0// Khai báo currentIndex ở đây
-
     return Scaffold(
       // extendBodyBehindAppBar: true,
       extendBody: true,
@@ -42,12 +39,12 @@ class DetailScreen extends StatelessWidget {
                       options: CarouselOptions(
                         aspectRatio: 16 / 9, // Thay đổi tỷ lệ khung hình
                         viewportFraction:
-                            0.8, // Chiếm 80% chiều rộng của màn hình
+                            0.9, // Chiếm 80% chiều rộng của màn hình
                         enlargeCenterPage: true, // Phóng to ảnh ở giữa
                         autoPlay: true, // Tự động chuyển đổi giữa các ảnh
                         autoPlayInterval: Duration(
                             seconds:
-                                3), // Thời gian giữa các lần chuyển ảnh (3 giây)
+                                2), // Thời gian giữa các lần chuyển ảnh (3 giây)
                         autoPlayAnimationDuration: Duration(
                             milliseconds:
                                 800), // Thời gian chuyển đổi giữa các ảnh (800 milliseconds)
@@ -114,7 +111,7 @@ class DetailScreen extends StatelessWidget {
         ),
       ),
 
-      bottomNavigationBar: CustomNavbarDetail(currentIndex: 0),
+      bottomNavigationBar: CustomNavbarDetail(currentIndex: 0, databaseItem: item, language: selectedLanguage,),
     );
   }
 }

@@ -21,6 +21,8 @@ dependencies:
   floating_bottom_navigation_bar: ^1.5.2
   easy_settings: ^1.0.0
   path_provider: ^2.0.5 
+  video_player: ^2.2.11 # Số phiên bản cụ thể có thể thay đổi
+  chewie: ^1.7.5
   
 dev_dependencies:
   flutter_test:
@@ -45,4 +47,5 @@ flutter:
     - assets/image/item/trainam_02.jpg
     - assets/image/item/trainam_03.jpg
     - assets/database/db_items.json
+    - assets/video/hoalo_intro.mp4
   

@@ -4,20 +4,20 @@
         "images": [
             "image/item/canh_cua_nha_tu.jpg"
         ],
-        "video": "unknown",
+        "video": "video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Cánh cửa nhà tù",
             "detail": "Với biệt danh là “Địa ngục trần gian”, nhà tù là nơi thực dân Pháp dung nhiều thủ đoạn tàn ác đối với tù nhân. Chỉ cần bước chân qua cánh của gỗ lim nặng 1,6 tấn là sẽ nhận những cú tát trời giáng, bị gọng cùm, đánh đập trong các phòng biệt giam.",
             "addition_detail": "",
-            "video_title": "unknown",
-            "video_detail": "unknown"
+            "video_title": "Cánh cửa nhà tù",
+            "video_detail": "Cánh cửa nhà tù"
         },
         "english": {
             "name": "Prison Gate",
             "detail": "With the nickname 'Hell on Earth,' the prison was a place where the French colonizers employed various cruel tactics against the prisoners. Simply stepping through the 1.6-ton heavy teak doors would result in brutal beatings, being put in shackles, and subjected to assaults within the solitary confinement cells.",
             "additional_detail": "With the nickname 'Hell on Earth,' the prison was a place where the French colonizers employed various cruel tactics against the prisoners. Simply stepping through the 1.6-ton heavy teak doors would result in brutal beatings, being put in shackles, and subjected to assaults within the solitary confinement cells.",
-            "video_title": "unknown",
-            "video_detail": "unknown"
+            "video_title": "Prison Gate",
+            "video_detail": "Prison Gate"
         }
     },
     {
@@ -46,7 +46,7 @@
     {
         "id": "03",
         "images": [
-            "image/item/trainnu_02.jpg",
+            "image/item/trainu_02.jpg",
             "image/item/trainu_01.jpg",
             "image/item/trainu_03.jpg"
         ],

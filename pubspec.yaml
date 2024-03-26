@@ -40,6 +40,7 @@ flutter:
     - assets/image/home/background.png
     - assets/image/map/map.jpg
     - assets/image/map/map_vertical.jpg
+    - assets/image/map/legend.jpg
     - assets/image/item/cachot_01.jpg
     - assets/image/item/cachot_02.jpg
     - assets/image/item/cachot_03.jpg
@@ -48,4 +49,5 @@ flutter:
     - assets/image/item/trainam_03.jpg
     - assets/database/db_items.json
     - assets/video/hoalo_intro.mp4
+    - assets/languages/language.json
   

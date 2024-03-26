@@ -5,6 +5,7 @@ import '../components/navbar_home.dart'; // Import navbar.dart
 import '../components/appbar_home.dart'; // Import CustomAppBar
 import '../components/item_card.dart'; // Import ItemCard
 import 'package:hoa_lo_ar_discovery/utils/language_manager.dart'; // Import LanguageManager
+
 class HomeScreen extends StatefulWidget {
   final Map<String, dynamic> languageData;
   final List<DatabaseItem> databaseItems;
@@ -49,6 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
         color: const Color(0xFFFDEEDB),
         child: SafeArea(
           child: SingleChildScrollView(
+            scrollDirection: Axis.vertical,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -146,7 +148,7 @@ class CustomIndicator extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedContainer(
       duration: const Duration(milliseconds: 500),
-      width: currentIndex == index ? 80 : 30,
+      width: currentIndex == index ? 40 : 15,
       height: 5,
       margin: const EdgeInsets.symmetric(horizontal: 5),
       decoration: BoxDecoration(

@@ -35,9 +35,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: '/intro',
       routes: {
-          '/intro': (context) => const IntroScreen(),
+        '/intro': (context) => const IntroScreen(),
         '/home': (context) => HomeScreen(
             languageData: languageData, databaseItems: databaseItems),
         '/map': (context) => MapScreen(languageData: languageData),

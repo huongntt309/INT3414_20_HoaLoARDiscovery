@@ -108,7 +108,7 @@ class _SettingScreenState extends State<SettingScreen> {
         ),
       ),
       extendBody: true,
-      bottomNavigationBar: CustomNavbar(currentIndex: 2),
+      bottomNavigationBar: CustomNavbar(currentIndex: 3),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: _handleConfirmation,
         label: Text(

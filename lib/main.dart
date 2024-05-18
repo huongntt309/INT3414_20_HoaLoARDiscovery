@@ -5,6 +5,7 @@ import './widgets/home.dart';
 import './widgets/map.dart';
 import './widgets/intro.dart';
 import './widgets/setting.dart';
+import './widgets/ai_chatbot.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,10 +40,10 @@ class MyApp extends StatelessWidget {
       initialRoute: '/intro',
       routes: {
         '/intro': (context) => const IntroScreen(),
-        '/home': (context) => HomeScreen(
-            languageData: languageData, databaseItems: databaseItems),
+        '/home': (context) => HomeScreen(languageData: languageData, databaseItems: databaseItems),
         '/map': (context) => MapScreen(languageData: languageData),
         '/setting': (context) => SettingScreen(languageData: languageData),
+        '/ai-chatbot': (context) => AIChatbotScreen(),
       },
     );
   }

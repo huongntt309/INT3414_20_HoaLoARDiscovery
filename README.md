@@ -2,15 +2,25 @@
 
 A new Flutter project.
 
-## Getting Started
+## Install Dependencies:
+```
+flutter pub get
+```
+## How to Run Project 
+1. INT3414_20_HoaLoARDiscovery> flutter run
+2. Press 2 to choose Chrome.
+    [1]: Windows (windows)
+    [2]: Chrome (chrome) 
+    [3]: Edge (edge)
+3. A Dart VM Service on Chrome is available at: http://127.0.0.1:52350
 
-This project is a starting point for a Flutter application.
+## How to Run Project with Hot Reload
+1. Start the App: Run the Flutter application using:
+```
+flutter run
+```
+2. Make Changes: Edit your code in your editor.
 
-A few resources to get you started if this is your first Flutter project:
+3. Hot Reload: Press r in the terminal where flutter run is running. Hot Reload updates the running app with the changes you made, without restarting the app. It preserves the current state of the app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Hot Restart: Press R in the terminal. Hot Restart restarts the app and applies the new code, but it does not preserve the app's state.

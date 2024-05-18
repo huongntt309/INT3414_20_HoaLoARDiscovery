@@ -7,21 +7,35 @@ class CustomAppBarDetail extends StatelessWidget
   const CustomAppBarDetail({Key? key, required this.title}) : super(key: key);
 
   @override
-  Size get preferredSize => Size.fromHeight(kToolbarHeight);
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 
   @override
   Widget build(BuildContext context) {
-    return AppBar(
-      backgroundColor: Colors.brown,
-      title: Text(
-        title,
-        style: TextStyle(
-          color: Colors.white,
-          fontWeight: FontWeight.bold,
+    return Stack(
+      children: [
+        Container(
+          height: kToolbarHeight,
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(
+                  'image/home/bg_app_bar_detail.png'), // Thay đổi đường dẫn đến hình ảnh của bạn
+              fit: BoxFit.cover,
+            ),
+          ),
         ),
-      ),
-      centerTitle: true, // Căn giữa tiêu đề
-      elevation: 0,
+        AppBar(
+          backgroundColor: Colors.transparent,
+          title: Text(
+            title,
+            style: const TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          centerTitle: true, // Căn giữa tiêu đề
+          elevation: 0,
+        ),
+      ],
     );
   }
 }

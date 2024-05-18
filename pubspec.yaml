@@ -43,7 +43,12 @@ flutter:
     - assets/image/intro/1.jpg
     - assets/image/intro/2.jpg
     - assets/image/intro/3.jpg
-    - assets/image/home/background.png
+    - assets/image/home/bg_detail.jpg
+    - assets/image/home/bg_home.jpg
+    - assets/image/home/bg_app_bar.png
+    - assets/image/home/bg_app_bar_detail.png
+    - assets/image/home/bg_app_bar_ai.png
+    - assets/image/home/bg_brown.png
     - assets/image/map/map.jpg
     - assets/image/map/map_vertical.jpg
     - assets/image/map/legend.jpg

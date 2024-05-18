@@ -8,11 +8,11 @@ class ItemCard extends StatefulWidget {
   final String selectedLanguage;
 
   const ItemCard({
-    Key? key,
+    super.key,
     required this.onTap,
     required this.item,
     required this.selectedLanguage,
-  }) : super(key: key);
+  });
 
   @override
   _ItemCardState createState() => _ItemCardState();
@@ -36,15 +36,19 @@ class _ItemCardState extends State<ItemCard> {
 
     return Card(
       elevation: 10,
-      color: Colors.brown,
+      color: const Color(0xFF5D3D1C),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
         height: 455,
         width: 280,
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
-          color: Colors.brown,
+          color: const Color(0xFF5D3D1C),
           borderRadius: BorderRadius.circular(20),
+          image: const DecorationImage(
+            image: AssetImage('image/home/bg_brown.png'),
+            fit: BoxFit.cover,
+          ),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -102,14 +106,13 @@ class _ItemCardState extends State<ItemCard> {
                 _selectedLanguage == 'Vietnamese'
                     ? 'Xem chi tiết'
                     : 'View Details',
-                style: TextStyle(
-                  color: Colors.grey,
+                style: const TextStyle(
+                  color: const Color(0xFF5D3D1C),
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
                 ),
               ),
             ),
-
           ],
         ),
       ),

@@ -4,14 +4,14 @@ import 'package:google_fonts/google_fonts.dart';
 import '../utils/size.dart';
 
 Color background = const Color(0xFF000500);
-Color userChat = Color.fromARGB(255, 253, 223, 204);
-Color resChat = Color.fromARGB(255, 255, 181, 139);
-Color chatColor = Color.fromARGB(255, 138, 82, 71);
-var brown = Color.fromARGB(255, 87, 33, 8);
-Color hintColor = Color.fromARGB(255, 138, 98, 71);
+Color userChat = Color.fromARGB(255, 213, 174, 118);
+Color resChat = Color.fromARGB(255, 222, 198, 171);
+Color chatColor = const Color.fromARGB(255, 138, 82, 71);
+var brown = const Color(0xFF5D3D1C);
+Color hintColor = const Color.fromARGB(255, 138, 98, 71);
 
-TextStyle messageText = GoogleFonts.poppins(color: brown, fontSize: small);
-TextStyle appBarTitle = GoogleFonts.poppins(color: brown, fontWeight: FontWeight.bold);
-TextStyle hintText = GoogleFonts.poppins(color: hintColor, fontSize: small);
-TextStyle dateText = GoogleFonts.poppins(color: brown, fontSize: 13);
-TextStyle promptText = GoogleFonts.poppins(color: brown, fontSize: small);
+TextStyle messageText = GoogleFonts.merriweather(color: brown, fontSize: small);
+TextStyle appBarTitle = GoogleFonts.merriweather(color: brown, fontWeight: FontWeight.bold);
+TextStyle hintText = GoogleFonts.merriweather(color: hintColor, fontSize: small);
+TextStyle dateText = GoogleFonts.merriweather(color: brown, fontSize: 13);
+TextStyle promptText = GoogleFonts.merriweather(color: brown, fontSize: small);

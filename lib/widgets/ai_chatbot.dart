@@ -24,7 +24,9 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
   final TextEditingController _userMessage = TextEditingController();
   bool isLoading = false;
 
-  static const apiKey = "YOUR_API_KEY";
+  // static const apiKey = "YOUR_API_KEY";
+  static const apiKey = "AIzaSyC1jzwVzHC-XXCYXWzKtku3qOwMfEDhKJI";
+  
   // Get API key from https://aistudio.google.com/app/apikey
   final model =
       GenerativeModel(model: "gemini-1.5-flash-latest", apiKey: apiKey);
@@ -42,18 +44,17 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
       ));
       isLoading = true;
     });
-    
-    
 
     final promptCmd = widget.languageData[selectedLanguage]['prompt_cmd'];
     final promptHoalo = widget.languageData[selectedLanguage]['prompt_hoa_lo'];
     final promptTopic = widget.languageData[selectedLanguage]['prompt_topic'];
-    final promptLengText = widget.languageData[selectedLanguage]['prompt_leng_text'];
-    
-    final promptFull = promptCmd + message + promptHoalo + promptTopic + promptLengText;
+    final promptLengText =
+        widget.languageData[selectedLanguage]['prompt_leng_text'];
+
+    final promptFull =
+        promptCmd + message + promptHoalo + promptTopic + promptLengText;
     final content = [Content.text(promptFull)];
     final response = await model.generateContent(content);
-
     /* 
       promptFull = promptCmd + message + promptHoalo + promptTopic + promptLengText
       - promptCmd: "Hãy tìm kiếm cho tôi thêm thông tin với từ khóa: "
@@ -62,7 +63,6 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
       - promptTopic: "Nếu từ khóa không phù hợp với chủ đề Nhà tù Hỏa Lò, hãy hỏi kĩ lại ý kiến của người dùng. "
       - promptLengText: "Nội dung trả lời là một vài đoạn văn ngắn, giới hạn chỉ nên trong 100 đến 200 từ."
     */
-    
 
     setState(() {
       _messages.add(Message(
@@ -84,10 +84,18 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFFFDEEDB),
       extendBodyBehindAppBar: true,
-      appBar: CustomAppBar(title: 'Hoa Lo AI Chatbot'),
+      appBar: CustomAppBar(title: 'AI Chatbot'),
       body: Container(
         height: double.infinity,
         width: double.infinity,
+        decoration: const BoxDecoration(
+          color: Color(0xFFFDEEDB),
+          image: DecorationImage(
+            image: AssetImage(
+                'image/home/bg_home.jpg'), // Thay đường dẫn tới hình ảnh của bạn
+            fit: BoxFit.cover,
+          ),
+        ),
         child: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,
@@ -138,14 +146,14 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
                                 margin: const EdgeInsets.all(xsmall),
                                 child: const CircularProgressIndicator(
                                   valueColor: AlwaysStoppedAnimation<Color>(
-                                      Colors.brown),
+                                      const Color(0xFF5D3D1C)),
                                   strokeWidth: 3,
                                 ),
                               )
                             : Icon(
                                 Icons.arrow_upward,
                                 color: _userMessage.text.isNotEmpty
-                                    ? Colors.brown
+                                    ? const Color(0xFF5D3D1C)
                                     : const Color(0x5A6C6C65),
                               ),
                       ),

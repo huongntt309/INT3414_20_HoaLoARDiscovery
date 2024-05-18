@@ -47,7 +47,15 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: const Color(0xFFFDEEDB),
+        // color: const Color(0xFFFDEEDB),
+        decoration: const BoxDecoration(
+          color: Color(0xFFFDEEDB),
+          image: DecorationImage(
+            image: AssetImage(
+                'image/home/bg_home.jpg'), // Thay đường dẫn tới hình ảnh của bạn
+            fit: BoxFit.cover,
+          ),
+        ),
         child: SafeArea(
           child: SingleChildScrollView(
             scrollDirection: Axis.vertical,
@@ -63,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ['discover_hoa_lo_prison']
                         : 'Discover Hoa Lo Prison',
                     style: const TextStyle(
-                      color: Colors.brown,
+                      color: const Color(0xFF5D3D1C),
                       fontSize: 34,
                       fontWeight: FontWeight.w600,
                     ),
@@ -77,7 +85,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ['choose_favorite_destination']
                         : 'Choose your favorite destination',
                     style: const TextStyle(
-                      color: Colors.brown,
+                      color: const Color(0xFF5D3D1C),
                       fontSize: 16,
                       fontWeight: FontWeight.w300,
                     ),
@@ -88,12 +96,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: const EdgeInsets.symmetric(horizontal: 24),
                   child: Row(
                     children: widget.databaseItems.map((item) {
-                          int index = widget.databaseItems.indexOf(item);
-                          return CustomIndicator(
-                            currentIndex: _currentIndex,
-                            index: index,
-                          );
-                        }).toList(),
+                      int index = widget.databaseItems.indexOf(item);
+                      return CustomIndicator(
+                        currentIndex: _currentIndex,
+                        index: index,
+                      );
+                    }).toList(),
                   ),
                 ),
                 const SizedBox(height: 50),
@@ -109,7 +117,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       setState(() {});
                     },
                   ),
-                  items: widget.databaseItems.map((item) => ItemCard(
+                  items: widget.databaseItems
+                      .map((item) => ItemCard(
                             onTap: () {},
                             item: item,
                             selectedLanguage: selectedLanguage,

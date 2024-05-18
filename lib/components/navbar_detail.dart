@@ -66,7 +66,8 @@ class CustomNavbarDetail extends StatelessWidget {
         selectedBackgroundColor: Colors.transparent,
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.grey,
-        backgroundColor: Colors.brown,
+        backgroundColor: const Color(0xFF5D3D1C),
+
         currentIndex:
             currentIndex, // Sử dụng currentIndex để xác định tab nào được chọn
         items: [

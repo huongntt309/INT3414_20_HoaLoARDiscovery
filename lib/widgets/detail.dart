@@ -24,7 +24,15 @@ class DetailScreen extends StatelessWidget {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: const Color(0xFFFDEEDB), // 0xFFFDEEDB
+        // color: const Color(0xFFFDEEDB), // 0xFFFDEEDB
+        decoration: const BoxDecoration(
+          color: Color(0xFFFDEEDB),
+          image: DecorationImage(
+            image: AssetImage(
+                'image/home/bg_detail.jpg'), // Thay đường dẫn tới hình ảnh của bạn
+            fit: BoxFit.cover,
+          ),
+        ),
         child: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -48,10 +56,10 @@ class DetailScreen extends StatelessWidget {
                               0.9, // Chiếm 80% chiều rộng của màn hình
                           enlargeCenterPage: true, // Phóng to ảnh ở giữa
                           autoPlay: true, // Tự động chuyển đổi giữa các ảnh
-                          autoPlayInterval: Duration(
+                          autoPlayInterval: const Duration(
                               seconds:
                                   2), // Thời gian giữa các lần chuyển ảnh (3 giây)
-                          autoPlayAnimationDuration: Duration(
+                          autoPlayAnimationDuration: const Duration(
                               milliseconds:
                                   800), // Thời gian chuyển đổi giữa các ảnh (800 milliseconds)
                         ),
@@ -79,32 +87,32 @@ class DetailScreen extends StatelessWidget {
               Expanded(
                 flex: 4,
                 child: SingleChildScrollView(
-                  padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                  padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(
+                      color: const Color.fromARGB(
                           255, 244, 208, 161), // Màu nền phần text
                       borderRadius: BorderRadius.circular(15), // Bo góc
                     ),
-                    padding:
-                        EdgeInsets.all(16.0), // Khoảng cách padding bao quanh
+                    padding: const EdgeInsets.all(
+                        16.0), // Khoảng cách padding bao quanh
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Center(
                           child: Text(
                             itemTextData['name'],
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
-                              color: Colors.brown, // Màu chữ
+                              color: const Color(0xFF5D3D1C), // Màu chữ
                             ),
                           ),
                         ),
-                        SizedBox(height: 16),
+                        const SizedBox(height: 16),
                         Text(
                           itemTextData['detail'],
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 16,
                             color: Colors.black, // Màu chữ
                           ),

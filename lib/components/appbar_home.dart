@@ -8,25 +8,32 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   CustomAppBar({required this.title});
 
   @override
-  Size get preferredSize => Size.fromHeight(kToolbarHeight);
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 
   @override
   Widget build(BuildContext context) {
-    return AppBar(
-      backgroundColor: Colors.brown,
-      title: Text(
-        title,
-        style: GoogleFonts.merriweather(
-          textStyle: TextStyle(
-            fontSize: 24,
-            color: Colors.white,
-            // fontWeight: FontWeight.bold,
-            letterSpacing: 1.2,
+    return Stack(
+      children: [
+        Container(
+          height: kToolbarHeight,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(
+                title == "AI Chatbot"
+                    ? 'image/home/bg_app_bar_ai.png' // Hình nền khác khi title là "AIchatbot"
+                    : 'image/home/bg_app_bar.png', // Hình nền mặc định
+              ),
+              fit: BoxFit.cover,
+            ),
           ),
         ),
-      ),
-      centerTitle: true,
-      elevation: 0,
+        AppBar(
+          backgroundColor:
+              const Color(0xFFE8D3B5).withOpacity(0.1), // Tạo độ mờ cho màu nền
+          centerTitle: true,
+          elevation: 0,
+        ),
+      ],
     );
   }
 }

@@ -23,7 +23,15 @@ class VideoDetailScreen extends StatelessWidget {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: const Color(0xFFFDEEDB),
+        // color: const Color(0xFFFDEEDB),
+        decoration: const BoxDecoration(
+          color: Color(0xFFFDEEDB),
+          image: DecorationImage(
+            image: AssetImage(
+                'image/home/bg_detail.jpg'), // Thay đường dẫn tới hình ảnh của bạn
+            fit: BoxFit.cover,
+          ),
+        ),
         child: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -34,10 +42,11 @@ class VideoDetailScreen extends StatelessWidget {
                 child: Container(
                   padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
                   child: ClipRRect(
-                  borderRadius: BorderRadius.circular(15), // Bo góc
-                  child: AspectRatio(
-                    aspectRatio: 16 / 9,// Tỉ lệ khung hình của video, có thể điều chỉnh tùy thích
-                    child: VideoPlayerHelper(videoPath: item.video),
+                    borderRadius: BorderRadius.circular(15), // Bo góc
+                    child: AspectRatio(
+                      aspectRatio: 16 /
+                          9, // Tỉ lệ khung hình của video, có thể điều chỉnh tùy thích
+                      child: VideoPlayerHelper(videoPath: item.video),
                     ),
                   ),
                 ),
@@ -62,7 +71,7 @@ class VideoDetailScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
-                              color: Colors.brown,
+                              color: const Color(0xFF5D3D1C),
                             ),
                           ),
                         ),

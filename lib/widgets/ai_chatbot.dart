@@ -25,7 +25,7 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
   final TextEditingController _userMessage = TextEditingController();
   bool isLoading = false;
 
-  static const apiKey = "AIzaSyAI3lm8HWESTMun6sqmdBLgswaLt-YKwjg";
+  static const apiKey = "YOUR_API_KEY";
   // Get API key from https://aistudio.google.com/app/apikey
   final model =
       GenerativeModel(model: "gemini-1.5-flash-latest", apiKey: apiKey);

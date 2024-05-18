@@ -6,7 +6,7 @@ import '../utils/language_manager.dart'; // Import LanguageManager
 class SettingScreen extends StatefulWidget {
   final Map<String, dynamic> languageData;
 
-  const SettingScreen({Key? key, required this.languageData}) : super(key: key);
+  const SettingScreen({super.key, required this.languageData});
 
   @override
   _SettingScreenState createState() => _SettingScreenState();
@@ -31,7 +31,7 @@ class _SettingScreenState extends State<SettingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFFDEEDB),
+      backgroundColor: const Color(0xFFFDEEDB),
       extendBodyBehindAppBar: true,
       appBar: CustomAppBar(title: 'Hoa Lo AR Discovery'),
       body: Container(
@@ -41,36 +41,36 @@ class _SettingScreenState extends State<SettingScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 24),
+                padding: const EdgeInsets.symmetric(horizontal: 24),
                 child: Text(
                   widget.languageData.isNotEmpty
                       ? widget.languageData[_selectedLanguage]['setting']
                       : 'Setting',
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Colors.brown,
                     fontSize: 34,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 24),
+                padding: const EdgeInsets.symmetric(horizontal: 24),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       children: [
-                        Icon(Icons.language, color: Colors.brown),
-                        SizedBox(width: 8),
+                        const Icon(Icons.language, color: Colors.brown),
+                        const SizedBox(width: 8),
                         Text(
                           widget.languageData.isNotEmpty
                               ? widget.languageData[_selectedLanguage]
                                   ['language']
                               : 'Language',
-                          style: TextStyle(
+                          style: const TextStyle(
                             color: Colors.brown,
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
@@ -78,7 +78,7 @@ class _SettingScreenState extends State<SettingScreen> {
                         ),
                       ],
                     ),
-                    SizedBox(height: 8),
+                    const SizedBox(height: 8),
                     DropdownButtonFormField(
                       value: _selectedLanguage,
                       onChanged: (value) {
@@ -92,7 +92,7 @@ class _SettingScreenState extends State<SettingScreen> {
                                 value: language,
                                 child: Row(
                                   children: [
-                                    SizedBox(width: 8),
+                                    const SizedBox(width: 8),
                                     Text(language),
                                   ],
                                 ),
@@ -108,16 +108,16 @@ class _SettingScreenState extends State<SettingScreen> {
         ),
       ),
       extendBody: true,
-      bottomNavigationBar: CustomNavbar(currentIndex: 3),
+      bottomNavigationBar: const CustomNavbar(currentIndex: 2),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: _handleConfirmation,
         label: Text(
           widget.languageData.isNotEmpty
               ? widget.languageData[_selectedLanguage]['confirm']
               : 'Xác nhận',
-          style: TextStyle(color: Colors.white),
+          style: const TextStyle(color: Colors.white),
         ),
-        icon: Icon(Icons.check, color: Colors.white),
+        icon: const Icon(Icons.check, color: Colors.white),
         backgroundColor: Colors.brown,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

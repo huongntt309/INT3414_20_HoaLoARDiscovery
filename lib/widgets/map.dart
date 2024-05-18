@@ -64,7 +64,7 @@ class _MapScreenState extends State<MapScreen> {
         ),
       ),
       extendBody: true,
-      bottomNavigationBar: CustomNavbar(currentIndex: 2),
+      bottomNavigationBar: const CustomNavbar(currentIndex: 1),
     );
   }
 }

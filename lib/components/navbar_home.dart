@@ -18,11 +18,13 @@ class CustomNavbar extends StatelessWidget {
             case 0:
               Navigator.pushReplacementNamed(context, '/home');
               break;
-           
             case 1:
-              Navigator.pushReplacementNamed(context, '/map');
+              Navigator.pushReplacementNamed(context, '/ai-chatbot');
               break;
             case 2:
+              Navigator.pushReplacementNamed(context, '/map');
+              break;
+            case 3:
               Navigator.pushReplacementNamed(context, '/setting');
               break;
             default:
@@ -38,6 +40,7 @@ class CustomNavbar extends StatelessWidget {
             currentIndex, // Sử dụng currentIndex để xác định tab nào được chọn
         items: [
           FloatingNavbarItem(icon: Icons.home, title: 'Home'),
+          FloatingNavbarItem(icon: Icons.chat, title: 'AI chatbot'),
           FloatingNavbarItem(icon: Icons.map, title: 'Map'),
           FloatingNavbarItem(icon: Icons.settings, title: 'Settings'),
         ],

@@ -6,7 +6,7 @@ import '../utils/language_manager.dart'; // Import LanguageManager
 class MapScreen extends StatefulWidget {
   final Map<String, dynamic>  languageData;
 
-  const MapScreen({Key? key, required this.languageData}) : super(key: key);
+  const MapScreen({super.key, required this.languageData});
 
   @override
   _MapScreenState createState() => _MapScreenState();
@@ -19,7 +19,7 @@ class _MapScreenState extends State<MapScreen> {
     String selectedLanguage = LanguageManager().selectedLanguage; // Lấy ngôn ngữ được chọn từ LanguageManager
 
     return Scaffold(
-      backgroundColor: Color(0xFFFDEEDB),
+      backgroundColor: const Color(0xFFFDEEDB),
       extendBodyBehindAppBar: true,
       appBar: CustomAppBar(title: 'Hoa Lo AR Discovery'),
       body: Container(
@@ -30,22 +30,22 @@ class _MapScreenState extends State<MapScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 24),
+                  padding: const EdgeInsets.symmetric(horizontal: 24),
                   child: Text(
                      widget.languageData.isNotEmpty
                         ?  widget.languageData[selectedLanguage]['tour_map']
                         : 'Tour Map', // Sử dụng dữ liệu ngôn ngữ từ LanguageManager
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Colors.brown,
                       fontSize: 34,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
                 ),
-                SizedBox(height: 30),
-                Padding(
+                const SizedBox(height: 30),
+                const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 24),
                   child: Row(
                     children: [
@@ -64,7 +64,7 @@ class _MapScreenState extends State<MapScreen> {
         ),
       ),
       extendBody: true,
-      bottomNavigationBar: const CustomNavbar(currentIndex: 1),
+      bottomNavigationBar: const CustomNavbar(currentIndex: 2),
     );
   }
 }

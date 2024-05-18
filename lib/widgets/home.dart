@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
     String selectedLanguage = LanguageManager().selectedLanguage;
     return Scaffold(
       extendBodyBehindAppBar: true,
-      appBar: CustomAppBar(),
+      appBar: CustomAppBar(title: 'Hoa Lo AR Discovery'),
       body: Container(
         height: double.infinity,
         width: double.infinity,

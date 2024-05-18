@@ -21,7 +21,7 @@ class _MapScreenState extends State<MapScreen> {
     return Scaffold(
       backgroundColor: Color(0xFFFDEEDB),
       extendBodyBehindAppBar: true,
-      appBar: CustomAppBar(),
+      appBar: CustomAppBar(title: 'Hoa Lo AR Discovery'),
       body: Container(
         height: double.infinity,
         width: double.infinity,

@@ -22,12 +22,13 @@ class AIChatbotScreen extends StatefulWidget {
 
 class _AIChatbotScreenState extends State<AIChatbotScreen> {
   String selectedLanguage = LanguageManager().selectedLanguage; // Lấy ngôn ngữ
-  TextEditingController _userMessage = TextEditingController();
+  final TextEditingController _userMessage = TextEditingController();
   bool isLoading = false;
 
-  static const apiKey = "YOUR_API_KEY";
+  static const apiKey = "AIzaSyAI3lm8HWESTMun6sqmdBLgswaLt-YKwjg";
   // Get API key from https://aistudio.google.com/app/apikey
-
+  final model =
+      GenerativeModel(model: "gemini-1.5-flash-latest", apiKey: apiKey);
   final List<Message> _messages = [];
 
   void sendMessage() async {
@@ -43,14 +44,23 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
       isLoading = true;
     });
     
-    final promptHoalo =
-        widget.languageData[selectedLanguage]['prompt_hoa_lo'];
     
-    final promptLengText = widget.languageData[selectedLanguage]['prompt_max_length'];
-    final model =
-        GenerativeModel(model: "gemini-1.5-flash-latest", apiKey: apiKey);
-    final content = [Content.text(promptHoalo + message + promptLengText)];
 
+    final promptCmd = widget.languageData[selectedLanguage]['prompt_cmd'];
+    final promptHoalo = widget.languageData[selectedLanguage]['prompt_hoa_lo'];
+    final promptTopic = widget.languageData[selectedLanguage]['prompt_topic'];
+    final promptLengText = widget.languageData[selectedLanguage]['prompt_leng_text'];
+    
+    final promptFull = promptCmd + message + promptHoalo + promptTopic + promptLengText;
+    final content = [Content.text(promptFull)];
+    /* 
+      promptFull = promptCmd + message + promptHoalo + promptTopic + promptLengText
+      - promptCmd: "Hãy tìm kiếm cho tôi thêm thông tin với từ khóa: "
+      - message
+      - promptHoalo: "ở trong chủ đề Nhà tù Hỏa Lò - Hà Nội - Việt Nam. "
+      - promptTopic: "Nếu từ khóa không phù hợp với chủ đề Nhà tù Hỏa Lò, hãy hỏi kĩ lại ý kiến của người dùng. "
+      - promptLengText: "Nội dung trả lời là một vài đoạn văn ngắn, giới hạn chỉ nên trong 100 đến 200 từ."
+    */
     
     final response = await model.generateContent(content);
 
@@ -74,7 +84,7 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
     return Scaffold(
       backgroundColor: Color(0xFFFDEEDB),
       extendBodyBehindAppBar: true,
-      appBar: CustomAppBar(),
+      appBar: CustomAppBar(title: 'Hoa Lo AI Chatbot'),
       body: Container(
         height: double.infinity,
         width: double.infinity,

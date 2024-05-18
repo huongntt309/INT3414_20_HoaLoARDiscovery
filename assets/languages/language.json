@@ -9,9 +9,10 @@
         "language": "Language",
         "confirm": "Confirm",
         "view_detail": "View Detail",
-        "prompt_hoa_lo": "More information about Hoa Lo Prison Relic - Ha Noi - Viet Nam:",
-        "prompt_max_length": ". Limit length of message is below 200 words"
-        
+        "prompt_cmd": "Please search for more information with the keyword: ",
+        "prompt_hoa_lo": "in the topic of Hoa Lo Prison Relic - Hanoi - Vietnam. ",
+        "prompt_topic": "If the keyword does not match the topic of Hoa Lo Prison Relic, please ask the user for clarification. ",
+        "prompt_leng_text": "The response should be a few short paragraphs, limited to 100 to 200 words."
     },
     "Vietnamese": {
         "discover_hoa_lo_prison": "Khám phá Hỏa Lò",
@@ -22,8 +23,10 @@
         "setting": "Cài đặt",
         "language": "Ngôn ngữ",
         "confirm": "Xác nhận",
-        "prompt_hoa_lo": "Trong chủ đề về Nhà tù Hỏa Lò - Hà Nội - Việt Nam, tôi muốn biết thêm về:",
-        "prompt_max_length": ". Giới hạn câu trả lời trong 100 đến 200 từ."
+        "prompt_cmd": "Hãy tìm kiếm cho tôi thêm thông tin với từ khóa: ",
+        "prompt_hoa_lo": "ở trong chủ đề Nhà tù Hỏa Lò - Hà Nội - Việt Nam. ",
+        "prompt_topic": "Nếu từ khóa không phù hợp với chủ đề Nhà tù Hỏa Lò, hãy hỏi kĩ lại ý kiến của người dùng. ",
+        "prompt_leng_text": "Nội dung trả lời là một vài đoạn văn ngắn, giới hạn chỉ nên trong 100 đến 200 từ."
     },
     "French": {
         "discover_hoa_lo_prison": "Découvrir la prison de Hoa Lo",
@@ -35,7 +38,9 @@
         "language": "Langue",
         "confirm": "Confirmer",
         "view_detail": "Voir le détail",
-        "prompt_hoa_lo": "Dans le thème de la prison de Hoa Lo - Hanoi - Vietnam, je voudrais en savoir plus sur:",
-        "prompt_max_length": ". Limitez la réponse à entre 100 et 200 mots."
+        "prompt_cmd": "Veuillez rechercher plus d'informations avec le mot-clé: ",
+        "prompt_hoa_lo": "dans le thème de la prison de Hoa Lo - Hanoï - Vietnam. ",
+        "prompt_topic": "Si le mot-clé ne correspond pas au thème de la prison de Hoa Lo, veuillez demander des précisions à l'utilisateur. ",
+        "prompt_leng_text": "La réponse doit être composée de quelques courts paragraphes, limitée à 100 à 200 mots."
     }
 }

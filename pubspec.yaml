@@ -11,8 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.2.1  # Ví dụ với package http và phiên bản 0.13.3
-
+  http: ^1.2.1  
   english_words: ^4.0.0
   provider: ^6.0.0
   animate_do: ^3.1.2
@@ -41,6 +40,9 @@ flutter:
     - assets/image/intro/intro1.jpg
     - assets/image/intro/intro2.jpg
     - assets/image/intro/intro3.jpg
+    - assets/image/intro/1.jpg
+    - assets/image/intro/2.jpg
+    - assets/image/intro/3.jpg
     - assets/image/home/background.png
     - assets/image/map/map.jpg
     - assets/image/map/map_vertical.jpg

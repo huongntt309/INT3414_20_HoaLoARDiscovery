@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 const SizedBox(height: 20),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 24),
+                  padding: const EdgeInsets.symmetric(horizontal: 24),
                   child: Text(
                     widget.languageData.isNotEmpty
                         ? widget.languageData[selectedLanguage]
@@ -87,42 +87,35 @@ class _HomeScreenState extends State<HomeScreen> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 24),
                   child: Row(
-                    children: widget.databaseItems?.map((item) {
-                          int index = widget.databaseItems!.indexOf(item);
+                    children: widget.databaseItems.map((item) {
+                          int index = widget.databaseItems.indexOf(item);
                           return CustomIndicator(
                             currentIndex: _currentIndex,
                             index: index,
                           );
-                        }).toList() ??
-                        [],
+                        }).toList(),
                   ),
                 ),
                 const SizedBox(height: 50),
-                if (widget.databaseItems != null)
-                  CarouselSlider(
-                    carouselController: carouselController,
-                    options: CarouselOptions(
-                      viewportFraction: 0.73,
-                      enlargeCenterPage: true,
-                      autoPlay: false,
-                      height: 490,
-                      onPageChanged: (index, reason) {
-                        _currentIndex = index;
-                        setState(() {});
-                      },
-                    ),
-                    items: widget.databaseItems!
-                        .map((item) => ItemCard(
-                              onTap: () {},
-                              item: item,
-                              selectedLanguage: selectedLanguage,
-                            ))
-                        .toList(),
-                  )
-                else
-                  const Center(
-                    child: CircularProgressIndicator(), // Loading indicator
+                CarouselSlider(
+                  carouselController: carouselController,
+                  options: CarouselOptions(
+                    viewportFraction: 0.73,
+                    enlargeCenterPage: true,
+                    autoPlay: false,
+                    height: 490,
+                    onPageChanged: (index, reason) {
+                      _currentIndex = index;
+                      setState(() {});
+                    },
                   ),
+                  items: widget.databaseItems.map((item) => ItemCard(
+                            onTap: () {},
+                            item: item,
+                            selectedLanguage: selectedLanguage,
+                          ))
+                      .toList(),
+                ),
               ],
             ),
           ),

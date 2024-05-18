@@ -13,8 +13,7 @@ import '../utils/style.dart';
 class AIChatbotScreen extends StatefulWidget {
   final Map<String, dynamic> languageData;
 
-  const AIChatbotScreen({Key? key, required this.languageData})
-      : super(key: key);
+  const AIChatbotScreen({super.key, required this.languageData});
 
   @override
   State<AIChatbotScreen> createState() => _AIChatbotScreenState();
@@ -53,6 +52,8 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
     
     final promptFull = promptCmd + message + promptHoalo + promptTopic + promptLengText;
     final content = [Content.text(promptFull)];
+    final response = await model.generateContent(content);
+
     /* 
       promptFull = promptCmd + message + promptHoalo + promptTopic + promptLengText
       - promptCmd: "Hãy tìm kiếm cho tôi thêm thông tin với từ khóa: "
@@ -62,7 +63,6 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
       - promptLengText: "Nội dung trả lời là một vài đoạn văn ngắn, giới hạn chỉ nên trong 100 đến 200 từ."
     */
     
-    final response = await model.generateContent(content);
 
     setState(() {
       _messages.add(Message(
@@ -82,7 +82,7 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFFDEEDB),
+      backgroundColor: const Color(0xFFFDEEDB),
       extendBodyBehindAppBar: true,
       appBar: CustomAppBar(title: 'Hoa Lo AI Chatbot'),
       body: Container(
@@ -122,7 +122,8 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(xlarge),
                       ),
-                      hintText: 'What do you want to know about Hoa Lo?',
+                      hintText: widget.languageData[selectedLanguage]
+                          ['hint_text'],
                       hintStyle: hintText,
                       suffixIcon: GestureDetector(
                         onTap: () {
@@ -135,7 +136,7 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
                                 width: medium,
                                 height: medium,
                                 margin: const EdgeInsets.all(xsmall),
-                                child: CircularProgressIndicator(
+                                child: const CircularProgressIndicator(
                                   valueColor: AlwaysStoppedAnimation<Color>(
                                       Colors.brown),
                                   strokeWidth: 3,
@@ -161,7 +162,7 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
         ),
       ),
       extendBody: true,
-      bottomNavigationBar: CustomNavbar(currentIndex: 1),
+      bottomNavigationBar: const CustomNavbar(currentIndex: 1),
     );
   }
 }

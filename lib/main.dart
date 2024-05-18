@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => HomeScreen(languageData: languageData, databaseItems: databaseItems),
         '/map': (context) => MapScreen(languageData: languageData),
         '/setting': (context) => SettingScreen(languageData: languageData),
-        '/ai-chatbot': (context) => AIChatbotScreen(),
+        '/ai-chatbot': (context) => AIChatbotScreen(languageData: languageData),
       },
     );
   }

@@ -8,7 +8,10 @@
         "setting": "Setting",
         "language": "Language",
         "confirm": "Confirm",
-        "view_detail": "View Detail"
+        "view_detail": "View Detail",
+        "prompt_hoa_lo": "More information about Hoa Lo Prison Relic - Ha Noi - Viet Nam:",
+        "prompt_max_length": ". Limit length of message is below 200 words"
+        
     },
     "Vietnamese": {
         "discover_hoa_lo_prison": "Khám phá Hỏa Lò",
@@ -18,7 +21,9 @@
         "map": "Bản đồ",
         "setting": "Cài đặt",
         "language": "Ngôn ngữ",
-        "confirm": "Xác nhận"
+        "confirm": "Xác nhận",
+        "prompt_hoa_lo": "Trong chủ đề về Nhà tù Hỏa Lò - Hà Nội - Việt Nam, tôi muốn biết thêm về:",
+        "prompt_max_length": ". Giới hạn câu trả lời trong 100 đến 200 từ."
     },
     "French": {
         "discover_hoa_lo_prison": "Découvrir la prison de Hoa Lo",
@@ -29,6 +34,8 @@
         "setting": "Paramètres",
         "language": "Langue",
         "confirm": "Confirmer",
-        "view_detail": "Voir le détail"
+        "view_detail": "Voir le détail",
+        "prompt_hoa_lo": "Dans le thème de la prison de Hoa Lo - Hanoi - Vietnam, je voudrais en savoir plus sur:",
+        "prompt_max_length": ". Limitez la réponse à entre 100 et 200 mots."
     }
 }

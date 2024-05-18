@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hoa_lo_ar_discovery/components/appbar_home.dart';
 import 'package:hoa_lo_ar_discovery/components/navbar_home.dart';
+import 'package:hoa_lo_ar_discovery/utils/language_manager.dart';
 import 'package:intl/intl.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
@@ -10,17 +11,22 @@ import '../utils/size.dart';
 import '../utils/style.dart';
 
 class AIChatbotScreen extends StatefulWidget {
-  const AIChatbotScreen({Key? key}) : super(key: key);
+  final Map<String, dynamic> languageData;
+
+  const AIChatbotScreen({Key? key, required this.languageData})
+      : super(key: key);
 
   @override
   State<AIChatbotScreen> createState() => _AIChatbotScreenState();
 }
 
 class _AIChatbotScreenState extends State<AIChatbotScreen> {
+  String selectedLanguage = LanguageManager().selectedLanguage; // Lấy ngôn ngữ
   TextEditingController _userMessage = TextEditingController();
   bool isLoading = false;
 
   static const apiKey = "YOUR_API_KEY";
+  // Get API key from https://aistudio.google.com/app/apikey
 
   final List<Message> _messages = [];
 
@@ -36,11 +42,16 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
       ));
       isLoading = true;
     });
-    const promptHoalo  = "Trong chủ đề Nhà tù Hỏa Lò - Hà Nội - Việt Nam, tôi muốn tìm hiểu về:";
-    const promptLengText  = ". Giới hạn trả lời trong 100 đến 200 chữ ";
+    
+    final promptHoalo =
+        widget.languageData[selectedLanguage]['prompt_hoa_lo'];
+    
+    final promptLengText = widget.languageData[selectedLanguage]['prompt_max_length'];
     final model =
         GenerativeModel(model: "gemini-1.5-flash-latest", apiKey: apiKey);
     final content = [Content.text(promptHoalo + message + promptLengText)];
+
+    
     final response = await model.generateContent(content);
 
     setState(() {
@@ -115,8 +126,8 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
                                 height: medium,
                                 margin: const EdgeInsets.all(xsmall),
                                 child: CircularProgressIndicator(
-                                  valueColor:
-                                      AlwaysStoppedAnimation<Color>(Colors.brown),
+                                  valueColor: AlwaysStoppedAnimation<Color>(
+                                      Colors.brown),
                                   strokeWidth: 3,
                                 ),
                               )

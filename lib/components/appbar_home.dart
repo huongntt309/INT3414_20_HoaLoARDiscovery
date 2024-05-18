@@ -5,7 +5,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
 
   // Constructor nhận vào tham số title
-  CustomAppBar({required this.title});
+  const CustomAppBar({required this.title});
 
   @override
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);

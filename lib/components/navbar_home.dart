@@ -4,7 +4,7 @@ import 'package:floating_bottom_navigation_bar/floating_bottom_navigation_bar.da
 class CustomNavbar extends StatelessWidget {
   final int currentIndex; // Thêm thuộc tính currentIndex
 
-  const CustomNavbar({Key? key, required this.currentIndex}) : super(key: key);
+  const CustomNavbar({super.key, required this.currentIndex});
 
   @override
   Widget build(BuildContext context) {

@@ -11,10 +11,10 @@ class HomeScreen extends StatefulWidget {
   final List<DatabaseItem> databaseItems;
 
   const HomeScreen({
-    Key? key,
+    super.key,
     required this.languageData,
     required this.databaseItems,
-  }) : super(key: key);
+  });
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
     String selectedLanguage = LanguageManager().selectedLanguage;
     return Scaffold(
       extendBodyBehindAppBar: true,
-      appBar: CustomAppBar(title: 'Hoa Lo AR Discovery'),
+      appBar: const CustomAppBar(title: 'Hoa Lo AR Discovery'),
       body: Container(
         height: double.infinity,
         width: double.infinity,
@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ['discover_hoa_lo_prison']
                         : 'Discover Hoa Lo Prison',
                     style: const TextStyle(
-                      color: const Color(0xFF5D3D1C),
+                      color:  Color(0xFF5D3D1C),
                       fontSize: 34,
                       fontWeight: FontWeight.w600,
                     ),
@@ -85,7 +85,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ['choose_favorite_destination']
                         : 'Choose your favorite destination',
                     style: const TextStyle(
-                      color: const Color(0xFF5D3D1C),
+                      color:  Color(0xFF5D3D1C),
                       fontSize: 16,
                       fontWeight: FontWeight.w300,
                     ),
@@ -141,10 +141,10 @@ class CustomIndicator extends StatelessWidget {
   final int index;
 
   const CustomIndicator({
-    Key? key,
+    super.key,
     required this.currentIndex,
     required this.index,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

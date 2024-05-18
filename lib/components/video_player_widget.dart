@@ -5,8 +5,7 @@ import 'package:chewie/chewie.dart';
 class VideoPlayerHelper extends StatefulWidget {
   final String videoPath;
 
-  const VideoPlayerHelper({Key? key, required this.videoPath})
-      : super(key: key);
+  const VideoPlayerHelper({super.key, required this.videoPath});
 
   @override
   _VideoPlayerHelperState createState() => _VideoPlayerHelperState();

@@ -107,7 +107,7 @@ class _ItemCardState extends State<ItemCard> {
                     ? 'Xem chi tiết'
                     : 'View Details',
                 style: const TextStyle(
-                  color: const Color(0xFF5D3D1C),
+                  color:  Color(0xFF5D3D1C),
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
                 ),

@@ -10,11 +10,11 @@ class CustomNavbarDetail extends StatelessWidget {
   final String language; // Thêm thuộc tính language
 
   const CustomNavbarDetail({
-    Key? key,
+    super.key,
     required this.currentIndex,
     required this.databaseItem, // Thêm vào constructor
     required this.language, // Thêm vào constructor
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

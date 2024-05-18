@@ -31,8 +31,7 @@ class MyApp extends StatelessWidget {
   final List<DatabaseItem> databaseItems;
 
   const MyApp(
-      {Key? key, required this.languageData, required this.databaseItems})
-      : super(key: key);
+      {super.key, required this.languageData, required this.databaseItems});
 
   @override
   Widget build(BuildContext context) {

@@ -14,12 +14,12 @@ class Messages extends StatelessWidget {
 
 
   Messages({
-    Key? key,
+    super.key,
     required this.isUser,
     required this.message,
     required this.date,
     required this.onAnimatedTextFinished,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

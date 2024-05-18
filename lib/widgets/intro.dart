@@ -87,8 +87,8 @@ class PrimaryButton extends StatefulWidget {
     this.borderRadius,
     this.fontSize,
     this.color,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   State<PrimaryButton> createState() => _PrimaryButtonState();

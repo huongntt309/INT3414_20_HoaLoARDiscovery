@@ -9,8 +9,7 @@ class DetailScreen extends StatelessWidget {
   final String selectedLanguage;
 
   const DetailScreen(
-      {Key? key, required this.item, required this.selectedLanguage})
-      : super(key: key);
+      {super.key, required this.item, required this.selectedLanguage});
 
   @override
   Widget build(BuildContext context) {

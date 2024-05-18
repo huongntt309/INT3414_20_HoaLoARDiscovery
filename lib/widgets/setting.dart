@@ -6,7 +6,7 @@ import '../utils/language_manager.dart'; // Import LanguageManager
 class SettingScreen extends StatefulWidget {
   final Map<String, dynamic> languageData;
 
-  const SettingScreen({Key? key, required this.languageData}) : super(key: key);
+  const SettingScreen({super.key, required this.languageData});
 
   @override
   _SettingScreenState createState() => _SettingScreenState();
@@ -33,7 +33,7 @@ class _SettingScreenState extends State<SettingScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFFFDEEDB),
       extendBodyBehindAppBar: true,
-      appBar: CustomAppBar(title: 'Hoa Lo AR Discovery'),
+      appBar: const CustomAppBar(title: 'Hoa Lo AR Discovery'),
       body: Container(
         height: double.infinity,
         width: double.infinity,
@@ -57,7 +57,7 @@ class _SettingScreenState extends State<SettingScreen> {
                       ? widget.languageData[_selectedLanguage]['setting']
                       : 'Setting',
                   style: const TextStyle(
-                    color: const Color(0xFF5D3D1C),
+                    color: Color(0xFF5D3D1C),
                     fontSize: 34,
                     fontWeight: FontWeight.w600,
                   ),
@@ -71,8 +71,7 @@ class _SettingScreenState extends State<SettingScreen> {
                   children: [
                     Row(
                       children: [
-                        const Icon(Icons.language,
-                            color: const Color(0xFF5D3D1C)),
+                        const Icon(Icons.language, color: Color(0xFF5D3D1C)),
                         const SizedBox(width: 8),
                         Text(
                           widget.languageData.isNotEmpty
@@ -80,7 +79,7 @@ class _SettingScreenState extends State<SettingScreen> {
                                   ['language']
                               : 'Language',
                           style: const TextStyle(
-                            color: const Color(0xFF5D3D1C),
+                            color: Color(0xFF5D3D1C),
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),

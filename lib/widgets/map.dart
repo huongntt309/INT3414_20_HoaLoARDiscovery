@@ -21,7 +21,7 @@ class _MapScreenState extends State<MapScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFFFDEEDB),
       extendBodyBehindAppBar: true,
-      appBar: CustomAppBar(title: 'Hoa Lo AR Discovery'),
+      appBar: const CustomAppBar(title: 'Hoa Lo AR Discovery'),
       body: Container(
         height: double.infinity,
         width: double.infinity,
@@ -38,7 +38,7 @@ class _MapScreenState extends State<MapScreen> {
                         ? widget.languageData[selectedLanguage]['tour_map']
                         : 'Tour Map', // Sử dụng dữ liệu ngôn ngữ từ LanguageManager
                     style: const TextStyle(
-                      color: const Color(0xFF5D3D1C),
+                      color:  Color(0xFF5D3D1C),
                       fontSize: 34,
                       fontWeight: FontWeight.w600,
                     ),

@@ -9,8 +9,7 @@ class VideoDetailScreen extends StatelessWidget {
   final String selectedLanguage;
 
   const VideoDetailScreen(
-      {Key? key, required this.item, required this.selectedLanguage})
-      : super(key: key);
+      {super.key, required this.item, required this.selectedLanguage});
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +39,7 @@ class VideoDetailScreen extends StatelessWidget {
               Expanded(
                 flex: 2,
                 child: Container(
-                  padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                  padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(15), // Bo góc
                     child: AspectRatio(
@@ -55,30 +54,30 @@ class VideoDetailScreen extends StatelessWidget {
               Expanded(
                 flex: 2,
                 child: SingleChildScrollView(
-                  padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                  padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 244, 208, 161),
+                      color: const Color.fromARGB(255, 244, 208, 161),
                       borderRadius: BorderRadius.circular(15),
                     ),
-                    padding: EdgeInsets.all(16.0),
+                    padding: const EdgeInsets.all(16.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Center(
                           child: Text(
                             itemTextData['video_title'],
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
-                              color: const Color(0xFF5D3D1C),
+                              color: Color(0xFF5D3D1C),
                             ),
                           ),
                         ),
-                        SizedBox(height: 16),
+                        const SizedBox(height: 16),
                         Text(
                           itemTextData['video_detail'],
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 16,
                             color: Colors.black,
                           ),

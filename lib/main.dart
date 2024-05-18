@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hoa_lo_ar_discovery/utils/database_manager.dart';
 import 'package:hoa_lo_ar_discovery/utils/language_manager.dart';
 import './widgets/home.dart';
@@ -45,6 +46,11 @@ class MyApp extends StatelessWidget {
         '/setting': (context) => SettingScreen(languageData: languageData),
         '/ai-chatbot': (context) => AIChatbotScreen(languageData: languageData),
       },
+      theme: ThemeData(
+        textTheme: GoogleFonts.merriweatherTextTheme(
+          Theme.of(context).textTheme,
+        ),
+      ),
     );
   }
 }

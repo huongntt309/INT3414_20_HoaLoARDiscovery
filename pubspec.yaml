@@ -38,10 +38,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/image/intro/intro1.png
-    - assets/image/intro/intro2.png
-    - assets/image/intro/intro3.png
-    - assets/image/intro/intro4.png
+    - assets/image/intro/intro1.jpg
+    - assets/image/intro/intro2.jpg
+    - assets/image/intro/intro3.jpg
     - assets/image/home/background.png
     - assets/image/map/map.jpg
     - assets/image/map/map_vertical.jpg

@@ -261,17 +261,17 @@ List<Onboarding> onboardingList = [
     bgImage: AppAssets.kOnboardingFirst,
     title: "Hỏa Lò AR Discovery",
     info:
-        'Một dự án nhóm môn Chuyên đề Công nghệ (INT3414_20) của Trường Đại học Công nghệ. Hỏa Lò AR Discovery sử dụng Thực tế tăng cường (AR) trong hướng dẫn tham quan các di tích của nhà tù Hòa Lỏ.',
+        'Một dự án nhóm bài tập lớn môn Chuyên đề Công nghệ (INT3414_20) \n của Trường Đại học Công nghệ (UET-VNU). ',
   ),
   Onboarding(
     bgImage: AppAssets.kOnboardingSecond,
-    title: 'Nhà tù Hỏa Lò – Hà Nội',
+    title: 'Hỏa Lò AR Discovery',
     info:
-        'Nhà tù Hỏa Lò hay Ngục Hỏa Lò xưa có tên tiếng Pháp là Maison Centrale, tức “Đề lao Trung ương”, tên tiếng Việt là Ngục thất Hà Nội.',
+        'Hỏa Lò AR Discovery sử dụng Thực tế tăng cường (AR) và Chatbot AI trong hướng dẫn tham quan các di tích của nhà tù Hỏa Lò, từ đó cải thiện trải nghiệm tham quan của các du khách.',
   ),
   Onboarding(
     bgImage: AppAssets.kOnboardingThird,
-    title: "Maison Centrale - Ha Noi",
+    title: "Hỏa Lò AR Discovery",
     info:
         'Nhà tù Hỏa Lò là biểu tượng cho tinh thần kiên cường, bất khuất của những người con Việt Nam yêu nước.\n Hãy cùng Hỏa Lò AR Discovery khám phá di tích nhà tù!',
   ),
@@ -291,7 +291,7 @@ class AppColors {
 }
 
 class AppAssets {
-  static String kOnboardingFirst = 'image/intro/intro1.png';
-  static String kOnboardingSecond = 'image/intro/intro2.png';
-  static String kOnboardingThird = 'image/intro/intro3.png';
+  static String kOnboardingFirst = 'image/intro/intro1.jpg';
+  static String kOnboardingSecond = 'image/intro/intro2.jpg';
+  static String kOnboardingThird = 'image/intro/intro3.jpg';
 }

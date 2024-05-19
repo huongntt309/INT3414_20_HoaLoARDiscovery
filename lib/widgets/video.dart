@@ -27,7 +27,7 @@ class VideoDetailScreen extends StatelessWidget {
           color: Color(0xFFFDEEDB),
           image: DecorationImage(
             image: AssetImage(
-                'image/home/bg_detail.jpg'), // Thay đường dẫn tới hình ảnh của bạn
+                'assets/image/home/bg_detail.jpg'), // Thay đường dẫn tới hình ảnh của bạn
             fit: BoxFit.cover,
           ),
         ),

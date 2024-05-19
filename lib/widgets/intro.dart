@@ -291,7 +291,7 @@ class AppColors {
 }
 
 class AppAssets {
-  static String kOnboardingFirst = 'image/intro/1.jpg';
-  static String kOnboardingSecond = 'image/intro/2.jpg';
-  static String kOnboardingThird = 'image/intro/3.jpg';
+  static String kOnboardingFirst = 'assets/image/intro/1.jpg';
+  static String kOnboardingSecond = 'assets/image/intro/2.jpg';
+  static String kOnboardingThird = 'assets/image/intro/3.jpg';
 }

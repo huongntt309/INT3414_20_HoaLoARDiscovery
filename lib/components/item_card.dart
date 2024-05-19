@@ -46,7 +46,7 @@ class _ItemCardState extends State<ItemCard> {
           color: const Color(0xFF5D3D1C),
           borderRadius: BorderRadius.circular(20),
           image: const DecorationImage(
-            image: AssetImage('image/home/bg_brown.png'),
+            image: AssetImage('assets/image/home/bg_brown.png'),
             fit: BoxFit.cover,
           ),
         ),

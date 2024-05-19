@@ -51,7 +51,7 @@ class _MapScreenState extends State<MapScreen> {
                     children: [
                       Expanded(
                         child: Image(
-                          image: AssetImage('image/map/map_vertical.jpg'),
+                          image: AssetImage('assets/image/map/map_vertical.jpg'),
                           fit: BoxFit.cover,
                         ),
                       ),

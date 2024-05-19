@@ -9,7 +9,7 @@ class CustomNavbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.114,
+      height: MediaQuery.of(context).size.height * 0.128,
       child: FloatingNavbar(
         onTap: (int val) {
           // Thực hiện điều hướng đến tab mới
@@ -36,7 +36,7 @@ class CustomNavbar extends StatelessWidget {
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.grey,
         backgroundColor: const Color(0xFF5D3D1C),
-        
+
         currentIndex:
             currentIndex, // Sử dụng currentIndex để xác định tab nào được chọn
         items: [

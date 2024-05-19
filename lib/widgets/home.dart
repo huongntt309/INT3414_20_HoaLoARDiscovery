@@ -42,6 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     String selectedLanguage = LanguageManager().selectedLanguage;
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       extendBodyBehindAppBar: true,
       appBar: const CustomAppBar(title: 'Hoa Lo AR Discovery'),
       body: Container(
@@ -52,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
           color: Color(0xFFFDEEDB),
           image: DecorationImage(
             image: AssetImage(
-                'image/home/bg_home.jpg'), // Thay đường dẫn tới hình ảnh của bạn
+                'assets/image/home/bg_home.jpg'), // Thay đường dẫn tới hình ảnh của bạn
             fit: BoxFit.cover,
           ),
         ),
@@ -71,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ['discover_hoa_lo_prison']
                         : 'Discover Hoa Lo Prison',
                     style: const TextStyle(
-                      color:  Color(0xFF5D3D1C),
+                      color: Color(0xFF5D3D1C),
                       fontSize: 34,
                       fontWeight: FontWeight.w600,
                     ),
@@ -85,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ['choose_favorite_destination']
                         : 'Choose your favorite destination',
                     style: const TextStyle(
-                      color:  Color(0xFF5D3D1C),
+                      color: Color(0xFF5D3D1C),
                       fontSize: 16,
                       fontWeight: FontWeight.w300,
                     ),
@@ -104,14 +105,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     }).toList(),
                   ),
                 ),
-                const SizedBox(height: 50),
+                const SizedBox(),
                 CarouselSlider(
                   carouselController: carouselController,
                   options: CarouselOptions(
                     viewportFraction: 0.73,
                     enlargeCenterPage: true,
                     autoPlay: false,
-                    height: 490,
+                    height: 480,
                     onPageChanged: (index, reason) {
                       _currentIndex = index;
                       setState(() {});

@@ -2,9 +2,9 @@
     {
         "id": "01",
         "images": [
-            "image/item/canh_cua_nha_tu.jpg"
+            "assets/image/item/canh_cua_nha_tu.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "assets/video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Cánh cửa nhà tù",
             "detail": "Với biệt danh là “Địa ngục trần gian”, nhà tù là nơi thực dân Pháp dung nhiều thủ đoạn tàn ác đối với tù nhân. Chỉ cần bước chân qua cánh của gỗ lim nặng 1,6 tấn là sẽ nhận những cú tát trời giáng, bị gọng cùm, đánh đập trong các phòng biệt giam.",
@@ -23,11 +23,11 @@
     {
         "id": "02",
         "images": [
-            "image/item/trainam_01.jpg",
-            "image/item/trainam_02.jpg",
-            "image/item/trainam_03.jpg"
+            "assets/image/item/trainam_01.jpg",
+            "assets/image/item/trainam_02.jpg",
+            "assets/image/item/trainam_03.jpg"
         ],
-        "video": "video/hoalo_intro2.mp4",
+        "video": "assets/video/hoalo_intro2.mp4",
         "vietnamese": {
             "name": "Nhà tù Nam",
             "detail": "Trại E - nơi thực dân Pháp giam nam tù chính trị. Năm 1930-1931, Chánh Giám ngục nhà tù Hỏa Lò thi hành quy chế nghiêm ngặt để ngăn chặn hoạt động tuyên truyền cách mạng, đấu tranh và tiêu diệt sự hình thành các tổ chức của tù nhân. Tuy nhiên, những người tù vẫn đoàn kết đấu tranh, yêu cầu Chánh Giám ngục phải thực hiện đúng chế độ đối với tù chính trị.",
@@ -46,17 +46,17 @@
     {
         "id": "03",
         "images": [
-            "image/item/trainu_02.jpg",
-            "image/item/trainu_01.jpg",
-            "image/item/trainu_03.jpg"
+            "assets/image/item/trainu_02.jpg",
+            "assets/image/item/trainu_01.jpg",
+            "assets/image/item/trainu_03.jpg"
         ],
-        "video": "video/hoalo_intro2.mp4",
+        "video": "assets/video/hoalo_intro2.mp4",
         "vietnamese": {
             "name": "Nhà tù Nữ",
             "detail": "Tại đây, khu giam trại nữ với diện tích 270 m2 bao gồm: 4 phòng giam nhỏ, phòng giam phụ nữ có con nhỏ, phòng giam tập thể, khu nhà tắm và sân trại, có thời kỳ thực dân Pháp đã giam tới 300 tù nhân nữ.\nPhòng giam chật hẹp, nước dùng trong sinh hoạt rất thiếu thốn, điều kiện vệ sinh không được đảm bảo cộng thêm khẩu phần ăn hằng ngày thường xuyên bị cắt xén khiến cuộc sống của nữ tù chính trị vô cùng cực khổ. Chế độ lao tù hà khắc đã cướp đi sinh mạng của nhiều chiến sỹ cộng sản kiên trung như đồng chí: Nguyễn Thị Quang Thái, Tạ Thị Câu, Đàm Thị Sen ...\nVượt lên sự khắc nghiệt của cuộc sống tù đày, nữ tù chính trị Nhà tù Hỏa Lò đã đoàn kết, yêu thương, giúp đỡ nhau đấu tranh chống lại chế độ nhà tù hà khắc, tổ chức các lớp học chính trị, văn hóa, trau dồi kinh nghiệm đấu tranh, tiếp tục cống hiến sực lực của mình cho cách mạng.",
             "addition_detail": "Câu chuyện nữ sinh Hà Nội trong phòng biệt giam của nhà tù khét tiếng ghê rợn.\nKhoảng thời gian cuối tháng 10, đầu tháng 11 với bà Đỗ Hồng Phấn (SN 1933, Đống Đa, Hà Nội) luôn là khoảng thời gian đặc biệt. Nó gợi nhớ cho bà những kỷ niệm về quãng đời học sinh, bà tham gia hoạt động kháng chiến và bị bắt nhốt tại nhà tù Hỏa Lò.\nBà Phấn bị bắt giam ngày 7/11/1950, cách đây hơn 68 năm. Khi đó, bà đang là học sinh lớp 2B đệ nhị chuyên khoa toán trường Chu Văn An, Hà Nội (lớp 11 trung học phổ thông ngày nay).\nNhớ về khoảng thời gian này, bà Phấn cho biết, Hà Nội khi đó đang bị chiếm đóng bởi thực dân Pháp. Bà là học sinh trường Chu Văn An nhưng được Thành đoàn phân công làm bí thư chi đoàn học sinh kháng chiến trường Trưng Vương. “Vì trường Trưng Vương lúc ấy chỉ có cấp cơ sở, học sinh còn ít tuổi”, bà Phấn nói.\nĐầu năm học 1950 - 1951, thấy chiến thắng biên giới đang vang dội, chi đoàn Học sinh Kháng chiến Trưng Vương của bà Phấn hân hoan đưa ra kế hoạch mừng chiến thắng bằng các hoạt động: Treo lá cờ đỏ sao vàng bằng vải, đốt pháo, rải truyền đơn… vào ngày 7/11/1950. Cuộc chào mừng đã thành công trọn vẹn nhưng hàng loạt học sinh Trưng Vương đã bị bắt ngay tại trường.\n“Tôi học bên trường Chu Văn An nên không biết. Tan học, tôi đạp xe đến nhà một ủy viên Ban Chấp hành chi đoàn trường Trưng Vương để hỏi tình hình. Chưa chuyện trò được gì nhiều thì mật thám xuất hiện.\nHọ khám nhà người bạn này, phát hiện mớ vải đỏ và vàng còn nguyên vết cắt sao vàng năm cánh nên bắt cả hai về sở Mật thám.\nTại sở Mật thám, chúng khám cặp sách của tôi và phát hiện trong cặp tôi có một hộp ảnh chiến thắng biên giới. Chúng tát tôi tối tăm mặt mũi. Sau đó, chúng dồn chúng tôi xuống nhà giam”, bà Phấn nhớ lại.Trong nhà giam của sở Mật thám, bà Phấn cũng như nhiều người bị bắt giam khác phải trải qua những cuộc tra tấn.\n“Chúng tra máy điện vào người và đánh tôi búi bụi, bắt tôi phải khai ra cấp trên của mình… Tôi không thể làm việc đó nên sẵn bát cơm, tôi đập vỡ ra, cắt mạch máu tay để kết thúc việc bắt bớ…”, người phụ nữ sinh năm 1933 nhớ lại.\nSau khi phát hiện sự việc, sở Mật thám đưa bà Phấn vào bệnh viện Phủ Doãn. Tại đây, bà Phấn được bố trí nằm phòng riêng, có hai nhân viên canh gác ngày đêm. Mẹ bà Phấn vào cũng chỉ nói được vài câu thăm hỏi.\n“Sau đó, trong tình trạng tôi nửa tỉnh nửa mê, một nhân viên đưa cho tôi tờ giấy gì đó, bảo tôi ký thì được thả ngay. Tôi gạt đi.\nRồi một nhân viên khác lại tiếp cận tôi, to nhỏ với tôi mấy tiếng đồng hồ như thể anh ta là cán bộ nằm vùng được cấp trên của tôi giao cho việc liên lạc . Nhưng sau đó, chỉ một câu nói: “Có nhắn gì anh Thủy (cấp trên của tôi) thì tôi sẵn sàng giúp”. Tôi choàng tỉnh ra, nhẹ nhàng cảm ơn”, bà Phấn nhớ về những ngày nằm trong bệnh viện nhưng liên tục phải đối phó với kẻ địch.\nSau đó, bà bị đưa sang nhà tù Hỏa Lò (nay thuộc quận Hoàn Kiếm, Hà Nội).\nTại nhà tù Hỏa Lò, bà Phấn được đưa vào trại phụ nữ. “Tôi nhớ, trại dài hun hút, ở giữa là lối đi, hai bên là hai dãy bệ xi măng đầy tù nhân. Mọi tù nhân phải nằm sát vào nhau mới đủ chỗ. Cuối dãy, chúng để một thùng đựng nước tiểu. Tất cả mọi người trong dãy xi măng đều đi tiểu ở đó nên rất hôi hám”, bà Phấn kể.\nỞ trại giam này được một thời gian thì bà Phấn lại bị chuyển vào buồng biệt giam.\n“Trong buồng, chúng tra tấn tù nhân bằng cách thắp đèn cả ngày cả đêm. Thứ ánh sáng này khiến đầu tôi ong ong khốn khổ, hai mắt thì nhức nhối mà không thể ngủ được. Tôi phải đậy cả mớ quần áo lên mắt, mãi mới tạm quen.\nThế rồi một hôm, tên chúa ngục người Pháp đi qua buồng giam hỏi tôi: “Có biết tiếng Pháp không”. “Biết”, tôi trả lời.\nHắn lại hỏi: \"Có muốn đọc truyện không?\". \"Có\", tôi nói.\nThế là ông ta đưa cho tôi mấy tờ báo và quyển truyện “Cuốn theo chiều gió”. Truyện hay, tôi đọc liền một mạch cả ngày lẫn đêm, cũng là nhờ thứ ánh sáng khủng khiếp kia”, bà Phấn kể tiếp.\nHôm trả sách, chúa ngục hỏi bà Phấn: “Truyện thế nào?”, “Hay”, bà Phấn trả lời, “Hay thế nào?”, gã hỏi tiếp.\n“Thứ nhất, nhân vật chính trong truyện là người phụ nữ can trường đầy bản lĩnh, vượt lên mọi cái thường tình để theo đuổi ước mơ của mình. Thứ hai, chế độ nô lệ ở Mỹ đã tan rã, không sao cứu vớt được thì chế độ nô lệ nào rồi cũng thế”, bà Phấn trả lời dõng dạc, ánh mắt đầy tự tin.\nGã chúa ngục lặng bỏ đi. Hôm sau, gã đưa cho bà Phấn 3 quyển truyện khác.“Tôi hí hửng mở ra xem, nào ngờ toàn truyện khiêu dâm. Tôi trả lại ngay”, người phụ nữ sinh năm1933 nhớ về những ngày đã cũ nhưng khiến bà không thể nào quên.\nNgày 21/1/1951, địch thả bà Phấn. 8/1952, Thành đoàn gọi bà ra vùng tự do.\n“Lúc đó ở nội thành, phong trào học sinh kháng chiến tuy bị khủng bố hết đợt này đến đợt khác nhưng không hề tan vỡ. Nhiều đoàn viên nối tiếp nhau vào Sở Mật Thám và Hỏa Lò nhưng phong trào vẫn lan rộng khắp các trường, liên tục cho đến ngày 10/10/1954, Thủ đô được hoàn toàn giải phóng”, bà kể lại.\nCâu chuyện sau đó được khép lại vì đã quá trưa, tuy nhiên trước khi chia tay, bà nhắc lại câu hỏi mà trong một lần giao lưu với thanh niên Hà Nội bà đã đặt ra khiến nhiều người trong số chúng tôi bối rối.\nBà bảo: \"Ngày nay, nước nhà độc lập rồi, động lực vươn lên của các bạn là gì? Là cuộc sống ổn định, là âm nhạc, là du lịch… hay còn điều gì nữa cho đất nước mình?\".",
-            "video_title": "Nhà tù Nữ",
-            "video_detail": "Câu chuyện nữ sinh Hà Nội trong phòng biệt giam của nhà tù khét tiếng ghê rợn.\nKhoảng thời gian cuối tháng 10, đầu tháng 11 với bà Đỗ Hồng Phấn (SN 1933, Đống Đa, Hà Nội) luôn là khoảng thời gian đặc biệt. Nó gợi nhớ cho bà những kỷ niệm về quãng đời học sinh, bà tham gia hoạt động kháng chiến và bị bắt nhốt tại nhà tù Hỏa Lò.\nBà Phấn bị bắt giam ngày 7/11/1950, cách đây hơn 68 năm. Khi đó, bà đang là học sinh lớp 2B đệ nhị chuyên khoa toán trường Chu Văn An, Hà Nội (lớp 11 trung học phổ thông ngày nay).\nNhớ về khoảng thời gian này, bà Phấn cho biết, Hà Nội khi đó đang bị chiếm đóng bởi thực dân Pháp. Bà là học sinh trường Chu Văn An nhưng được Thành đoàn phân công làm bí thư chi đoàn học sinh kháng chiến trường Trưng Vương. “Vì trường Trưng Vương lúc ấy chỉ có cấp cơ sở, học sinh còn ít tuổi”, bà Phấn nói.\nĐầu năm học 1950 - 1951, thấy chiến thắng biên giới đang vang dội, chi đoàn Học sinh Kháng chiến Trưng Vương của bà Phấn hân hoan đưa ra kế hoạch mừng chiến thắng bằng các hoạt động: Treo lá cờ đỏ sao vàng bằng vải, đốt pháo, rải truyền đơn… vào ngày 7/11/1950. Cuộc chào mừng đã thành công trọn vẹn nhưng hàng loạt học sinh Trưng Vương đã bị bắt ngay tại trường.\n“Tôi học bên trường Chu Văn An nên không biết. Tan học, tôi đạp xe đến nhà một ủy viên Ban Chấp hành chi đoàn trường Trưng Vương để hỏi tình hình. Chưa chuyện trò được gì nhiều thì mật thám xuất hiện.\nHọ khám nhà người bạn này, phát hiện mớ vải đỏ và vàng còn nguyên vết cắt sao vàng năm cánh nên bắt cả hai về sở Mật thám.\nTại sở Mật thám, chúng khám cặp sách của tôi và phát hiện trong cặp tôi có một hộp ảnh chiến thắng biên giới. Chúng tát tôi tối tăm mặt mũi. Sau đó, chúng dồn chúng tôi xuống nhà giam”, bà Phấn nhớ lại.Trong nhà giam của sở Mật thám, bà Phấn cũng như nhiều người bị bắt giam khác phải trải qua những cuộc tra tấn.\n“Chúng tra máy điện vào người và đánh tôi búi bụi, bắt tôi phải khai ra cấp trên của mình… Tôi không thể làm việc đó nên sẵn bát cơm, tôi đập vỡ ra, cắt mạch máu tay để kết thúc việc bắt bớ…”, người phụ nữ sinh năm 1933 nhớ lại.\nSau khi phát hiện sự việc, sở Mật thám đưa bà Phấn vào bệnh viện Phủ Doãn. Tại đây, bà Phấn được bố trí nằm phòng riêng, có hai nhân viên canh gác ngày đêm. Mẹ bà Phấn vào cũng chỉ nói được vài câu thăm hỏi.\n“Sau đó, trong tình trạng tôi nửa tỉnh nửa mê, một nhân viên đưa cho tôi tờ giấy gì đó, bảo tôi ký thì được thả ngay. Tôi gạt đi.\nRồi một nhân viên khác lại tiếp cận tôi, to nhỏ với tôi mấy tiếng đồng hồ như thể anh ta là cán bộ nằm vùng được cấp trên của tôi giao cho việc liên lạc . Nhưng sau đó, chỉ một câu nói: “Có nhắn gì anh Thủy (cấp trên của tôi) thì tôi sẵn sàng giúp”. Tôi choàng tỉnh ra, nhẹ nhàng cảm ơn”, bà Phấn nhớ về những ngày nằm trong bệnh viện nhưng liên tục phải đối phó với kẻ địch.\nSau đó, bà bị đưa sang nhà tù Hỏa Lò (nay thuộc quận Hoàn Kiếm, Hà Nội).\nTại nhà tù Hỏa Lò, bà Phấn được đưa vào trại phụ nữ. “Tôi nhớ, trại dài hun hút, ở giữa là lối đi, hai bên là hai dãy bệ xi măng đầy tù nhân. Mọi tù nhân phải nằm sát vào nhau mới đủ chỗ. Cuối dãy, chúng để một thùng đựng nước tiểu. Tất cả mọi người trong dãy xi măng đều đi tiểu ở đó nên rất hôi hám”, bà Phấn kể.\nỞ trại giam này được một thời gian thì bà Phấn lại bị chuyển vào buồng biệt giam.\n“Trong buồng, chúng tra tấn tù nhân bằng cách thắp đèn cả ngày cả đêm. Thứ ánh sáng này khiến đầu tôi ong ong khốn khổ, hai mắt thì nhức nhối mà không thể ngủ được. Tôi phải đậy cả mớ quần áo lên mắt, mãi mới tạm quen.\nThế rồi một hôm, tên chúa ngục người Pháp đi qua buồng giam hỏi tôi: “Có biết tiếng Pháp không”. “Biết”, tôi trả lời.\nHắn lại hỏi: \"Có muốn đọc truyện không?\". \"Có\", tôi nói.\nThế là ông ta đưa cho tôi mấy tờ báo và quyển truyện “Cuốn theo chiều gió”. Truyện hay, tôi đọc liền một mạch cả ngày lẫn đêm, cũng là nhờ thứ ánh sáng khủng khiếp kia”, bà Phấn kể tiếp.\nHôm trả sách, chúa ngục hỏi bà Phấn: “Truyện thế nào?”, “Hay”, bà Phấn trả lời, “Hay thế nào?”, gã hỏi tiếp.\n“Thứ nhất, nhân vật chính trong truyện là người phụ nữ can trường đầy bản lĩnh, vượt lên mọi cái thường tình để theo đuổi ước mơ của mình. Thứ hai, chế độ nô lệ ở Mỹ đã tan rã, không sao cứu vớt được thì chế độ nô lệ nào rồi cũng thế”, bà Phấn trả lời dõng dạc, ánh mắt đầy tự tin.\nGã chúa ngục lặng bỏ đi. Hôm sau, gã đưa cho bà Phấn 3 quyển truyện khác.“Tôi hí hửng mở ra xem, nào ngờ toàn truyện khiêu dâm. Tôi trả lại ngay”, người phụ nữ sinh năm1933 nhớ về những ngày đã cũ nhưng khiến bà không thể nào quên.\nNgày 21/1/1951, địch thả bà Phấn. 8/1952, Thành đoàn gọi bà ra vùng tự do.\n“Lúc đó ở nội thành, phong trào học sinh kháng chiến tuy bị khủng bố hết đợt này đến đợt khác nhưng không hề tan vỡ. Nhiều đoàn viên nối tiếp nhau vào Sở Mật Thám và Hỏa Lò nhưng phong trào vẫn lan rộng khắp các trường, liên tục cho đến ngày 10/10/1954, Thủ đô được hoàn toàn giải phóng”, bà kể lại.\nCâu chuyện sau đó được khép lại vì đã quá trưa, tuy nhiên trước khi chia tay, bà nhắc lại câu hỏi mà trong một lần giao lưu với thanh niên Hà Nội bà đã đặt ra khiến nhiều người trong số chúng tôi bối rối.\nBà bảo: \"Ngày nay, nước nhà độc lập rồi, động lực vươn lên của các bạn là gì? Là cuộc sống ổn định, là âm nhạc, là du lịch… hay còn điều gì nữa cho đất nước mình?"
+            "video_title": "Nhà tù Nam",
+            "video_detail": "Video giới thiệu về nhà tù Nam và những câu chuyện lịch sử của nó."
         },
         "english": {
             "name": "Female Prison",
@@ -69,9 +69,9 @@
     {
         "id": "04",
         "images": [
-            "image/item/cay_bang_tinh_nghia.jpg"
+            "assets/image/item/cay_bang_tinh_nghia.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "assets/video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Cây Bàng Tình Nghĩa",
             "detail": "Theo như lời kể của một số cựu tù chính trị tại nhà tù Hỏa Lò, nguồn gốc của cây bàng bắt đầu từ trước năm 1930, khi những tù nhân bị kết án phải đi lao động vệ sinh bên tòa án. Họ đã thu thập những cây bàng mọc hoang trên các lùm cỏ và mang về trồng chúng trong sân của trại giam. Sau một thời gian, cây bàng đã lớn lên và trở nên gắn bó với nhiều thế hệ tù chính trị tại đây. Mỗi khi được ra ngoài, các tù nhân chính trị sẽ tập trung quanh cây bàng để vừa tận hưởng không khí trong lành vừa cùng nhau bàn bạc về những biện pháp chống lại chế độ tù đày của thực dân. ",
@@ -90,9 +90,9 @@
     {
         "id": "05",
         "images": [
-            "image/item/cum_chan.jpg"
+            "assets/image/item/cum_chan.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "assets/video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Cùm chân",
             "detail": "Đây là loại cùm chân, cấu tạo gồm 2 phần: Phần trên bằng sắt, phần dưới bằng gỗ. Loại cùm này được thực dân Pháp sử dụng trong các phòng giam của khu xà lim tử hình.",
@@ -111,10 +111,10 @@
     {
         "id": "06",
         "images": [
-            "image/item/dia_thia.jpg",
-            "image/item/bat.jpg"
+            "assets/image/item/dia_thia.jpg",
+            "assets/image/item/bat.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "assets/video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Bát, Đĩa và Thìa",
             "detail": "Với lý do lo sợ tù nhân sử dụng bát, đũa, thìa làm vũ khí chống lại cai ngục, giám thị trong các cuộc đấu tranh, Giám ngục Hỏa Lò đã ra quy định cấm tù nhân sử dụng bát, đũa, thìa trong các bữa ăn hàng ngày. Đến bữa ăn, cơm và thức ăn của tù nhân được đựng trong các máng gỗ và chậu tôn (gọi là Lập là).",
@@ -133,9 +133,9 @@
     {
         "id": "07",
         "images": [
-            "image/item/quan_ao.jpg"
+            "assets/image/item/quan_ao.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "assets/video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Quần Áo",
             "detail": "Bộ quần áo này giám thị nhà tù phát cho những người đã thành án sử dụng trong thời gian bị giam giữ tại Nhà tù Hỏa Lò. Quần, áo được may bằng vải thô, màu trắng đục. Trên thân áo có in 2 chữ M.C (2 chữ viết tắt của từ Maison Centrale: Nhà tù Trung ương), áo không có khuy, thay vào đó là những nút thắt. Quần được may theo kiểu quần ta, ống rộng, cạp quần có luồn dây rút, trên ống quần cũng in 2 chữ M.C.",
@@ -144,7 +144,7 @@
             "video_detail": "Quần Áo tù nhân"
         },
         "english": {
-            "name": "Cloths",
+            "name": "assets/Cloths",
             "detail": "This set of clothing was issued by the prison authorities to those who had been sentenced to serve time at Hoa Lo Prison. The trousers and shirt are made of coarse white fabric. On the shirt, there are two letters M.C printed (abbreviating Maison Centrale, which means Central Prison). The shirt does not have buttons; instead, it has tie strings. The trousers are styled like baggy pants, with wide legs and a drawstring waistband, also bearing the M.C letters printed on the leg.",
             "additional_detail": "",
             "video_title": "Prisoner Cloths",
@@ -154,10 +154,10 @@
     {
         "id": "08",
         "images": [
-            "image/item/che_do_an_uong_1.jpg",
-            "image/item/che_do_an_uong_2.jpg"
+            "assets/image/item/che_do_an_uong_1.jpg",
+            "assets/image/item/che_do_an_uong_2.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "assets/video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Chế Độ Ăn Uống",
             "detail": "Theo điều lệ của nhà tù, những phần ăn ở đây phải đảm bảo tiêu chuẩn. Tuy nhiên, cai ngục thông đồng với chủ thầu cắt xén khẩu phần ăn. Chúng cho tù nhân ăn những loại thực phẩm kém chất lượng, hết hạn sử dụng. Gạo hẩm, thóc sạn, cá khô vụn lẫn cá ươn, thịt bạt nhạc, rau già… Khẩu phần ăn được đụng trong máng gỗ gọi là “lập là”. Cai ngục không cho dùng bát, đũa vì sợ tù nhân dùng làm vũ khí. Từ đó, những tù nhân đã tạo ra những chiếc bát làm bằng vỏ quả dừa khô, đũa làm từ cành bàng…",
@@ -176,10 +176,10 @@
     {
         "id": "09",
         "images": [
-            "image/item/phi_cong_my_1.jpg",
-            "image/item/phi_cong_my_2.jpg"
+            "assets/image/item/phi_cong_my_1.jpg",
+            "assets/image/item/phi_cong_my_2.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "assets/video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Phi công mỹ trong nhà tù Hỏa Lò",
             "detail": "Trong thời gian Mỹ ném bom, bắn phá miền Bắc, đất nước còn đang gặp rất nhiều khó khăn, chính phủ Việt Nam vẫn đối xử nhân đạo, tạo điều kiện tốt nhất cho phi công Mỹ bị bắt sinh hoạt tại nhà tù. Tại đây, mỗi phi công đều được cấp phát đầy đủ đồ dùng cũng như được chữa trị vết thương, khám chữa bệnh chăm sóc hàng ngày. Trong trại giam, các phi công vẫn được tham gia hoạt động văn hóa: chơi thể thao, nghe tin tức qua đài, xem phim…Cùng với đó là vẫn được đón lễ Giáng sinh, lễ Tạ ơn và được tự chuẩn bị bữa ăn.",
@@ -198,11 +198,11 @@
     {
         "id": "10",
         "images": [
-            "image/item/cachot_01.jpg",
-            "image/item/cachot_02.jpg",
-            "image/item/cachot_03.jpg"
+            "assets/image/item/cachot_01.jpg",
+            "assets/image/item/cachot_02.jpg",
+            "assets/image/item/cachot_03.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "assets/video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Cachot",
             "detail": "Cachot dùng để giam những người bị trừng phạt vi phạm quy định của nhà tù. Cachot ở Hỏa Lò là \"Địa ngục của địa ngục\", phòng giam chật hẹp, tối tăm. Tại đây, người tù bị nhốt biệt lập, bị cùm trong đêm, phải ăn, ngủ, vệ sinh tại chỗ. Người tù bị giam ở Cachot chỉ sau một thời gian là bị phù nề, mắt mờ, ghẻ lở đầy người do thiếu vệ sinh, ánh sáng và cả dưỡng khí.\nNăm 1932, đồng chí Trường Chinh (nguyên Tổng Bí thư Ban Chấp hành Trung Ương Đảng Cộng Sản Việt Nam) bị phạt giam tại đây vì lãnh đạo tù chính trị tổ chức mít tinh kỷ niệm ngày Quốc tế lao động mùng 1 tháng 5.",
@@ -221,25 +221,25 @@
     {
         "id": "11",
         "images": [
-            "image/item/maychem_01.jpg",
-            "image/item/maychem_02.jpg",
-            "image/item/maychem_03.jpg",
-            "image/item/maychem_04.jpg"
+            "assets/image/item/maychem_01.jpg",
+            "assets/image/item/maychem_02.jpg",
+            "assets/image/item/maychem_03.jpg",
+            "assets/image/item/maychem_04.jpg"
         ],
-        "video": "video/hoalo_intro.mp4",
+        "video": "assets/video/hoalo_intro.mp4",
         "vietnamese": {
             "name": "Máy chém",
             "detail": "Khủng khiếp nhất ở Hoả Lò là chiếc máy chém thời trung cổ, được thiết kế bởi 2 cột trụ gỗ cao 4m với lưỡi dao được giữ ở trên cao bằng chốt. Phía dưới có một xà ngang khác và giá hẹp để tử tội đặt đầu vào.\nHai miếng ván được khoét hình bán nguyệt, ráp lại thành hai hình tròn, chặn phía trên và phía dưới cổ tử tội để lưỡi dao rơi vào giữa. Bên trong trụ là hai rãnh để lưỡi dao theo đó rơi xuống theo một đường thẳng đứng.\nPhía dưới là hộc sắt để rơi đầu tử tù vào, kế bên là thùng mây đan đựng thi thể.\nTháng 1/1930, máy chém được vận chuyển lên Yên Bái để hành hình 13 chiến sĩ Việt Nam Quốc dân đảng bị bắt trong cuộc khởi nghĩa Yên Bái (đứng đầu là Nguyễn Thái Học). Vũ khí man rợ này trong nhà tù hoạt động liên tục, được dùng lưu chuyển từ nhà giam này tới nhà giam khác khắp xứ Bắc Kỳ.",
             "addition_detail": "Cựu tù chính trị kể về chiếc máy chém của thực dân Pháp ở Nhà tù Hỏa Lò.\nMỗi lần trở lại thăm nơi đã từng bị thực dân Pháp giam cầm, trong lòng người chiến sĩ cựu tù chính trị Nguyễn Tiến Hà, Trưởng ban liên lạc chiến sĩ cách mạng bị địch bắt tù đày tại Nhà tù Hỏa Lò lại bồi hồi xúc động, nước mắt ngấn lệ. Giờ đây, người chiến sĩ cách mạng này đã hơn 90 tuổi nhưng những hình ảnh đau thương mà ông từng chứng kiến thực dân Pháp hành quyết đồng đội của mình bằng chiếc máy chém thì vẫn hằn sâu trong tâm trí ông và khi nhớ lại những cảnh đó, trái tim người cựu tù chính trị năm xưa như bị bóp nghẹn.\nCựu tù chính trị Nguyễn Tiến Hà cho biết: Máy chém này để thực dân Pháp thực hiện án cao nhất là tử hình đối với những người tù chính trị đã đứng lên chống lại chúng. Máy chém đã xuất hiện từ những năm thực dân Pháp xây dựng Nhà tù Hỏa Lò.\nCó lần thực dân Pháp đã đem máy chém ra để trước cửa Nhà tù Hỏa Lò để tử hình các chiến sĩ cách mạng và uy hiếp tinh thần của những tù nhân khác; đồng thời để đe dọa người dân không dám chống lại chúng. Sau lần đó, bọn chúng đem máy chém ra pháp trường để hành quyết.\n\"Tôi đã từng chứng kiến thực dân Pháp sử dụng chiếc máy chém này hành quyết các chiến sĩ cách mạng. Lúc đó, tôi làm Bí thư chi bộ tại Nhà tù Hỏa Lò, lãnh đạo chung của Nhà tù Hỏa Lò. Hồi đó, thực dân Pháp sử dụng công khai máy chém này đối với một chiến sĩ cách mạng, còn sau đó bọn chúng đều xử kín vì sợ các chiến sĩ đấu tranh\", cựu tù chính trị Nguyễn Tiến Hà nhớ lại.\nCựu tù chính trị Nguyễn Tiến Hà cho biết: \"Trước khi đưa các chiến sĩ của ta đi hành quyết thì chúng tôi đều biết. Từ sáng sớm, bọn chúng chuẩn bị đưa các tù nhân ra pháp trường thì chúng tôi đều hò la phản đối và cả tuyệt thực. Tôi là người lãnh đạo phong trào tuyệt thực 1 tuần liền để phản đối án tử hình. Sáng sớm trước khi bị dẫn ra pháp trường, chúng tôi thường nghe thấy tiếng giầy đinh của thực dân Pháp thì chúng tôi biết ngay là có chuyện và mọi người cùng đổ ra cửa buồng giam, hô lên những khẩu hiệu như: “Phản đối thực dân Pháp”, “Phản đối án tử hình”…; còn các đồng chí bị dẫn đi hành quyết rất kiên cường trước khi đi cũng hô: “Thực dân Pháp đưa tôi ra pháp trường đây, các đồng chí ở lại mạnh khỏe, chiến đấu bảo vệ quê hương, Chủ tịch Hồ Chí Minh muôn năm; Việt Nam độc lập, thống nhất muôn năm!”. Lúc đó không khí trong Nhà tù bừng bừng khí thế chiến đấu. Lúc đó trong buồng giam có bát, đĩa hoặc vật dụng gì chúng tôi lấy ném ra ngoài cửa để phản đối\".",
             "video_title": "Máy chém",
-            "video_detail": "Máy chém"
+            "video_detail": "Có thể chưa nhiều người biết, hiện vật máy chém đang được trưng bày tại Di tích Nhà tù Hỏa Lò hiện nay là hiện vật gốc. Chiếc máy chém sừng sững được thiết kế bởi 2 cột trụ gỗ cao 4m với lưỡi dao được giữ ở trên cao bằng chốt. Phía dưới có một xà ngang khác và giá hẹp để tử tội đặt đầu vào. Hai miếng ván được khoét hình bán nguyệt, ráp lại thành hai hình tròn, chặn phía trên và phía dưới cổ tử tội để lưỡi dao rơi vào giữa. Bên trong trụ là hai rãnh để lưỡi dao theo đó rơi xuống theo một đường thẳng đứng. Phía dưới là hộc sắt để rơi đầu tử tù vào, kế bên là thùng mây đan đựng thi thể. Chính chiếc máy chém này đã cướp đi sinh mạng của biết bao chiến sĩ cách mạng yêu nước và cũng là minh chứng cho sự anh dũng, bất khuất của những người đã nằm dưới lưỡi dao kia. "
         },
         "english": {
             "name": "Guillotine",
             "detail": "The most terrible thing in Hoa Lo is the medieval guillotine, designed by 2 wooden pillars 4m high with blades held aloft by pegs. Underneath there is another crossbar and a narrow shelf for the executioner to place his head in.\nTwo pieces of board are cut in a semicircle, assembled into two circles, blocking the top and bottom of the neck so that the blade falls in the middle. Inside the pillar are two grooves for the blade to fall down in a vertical line.\nUnderneath is an iron drawer to drop the death of the prisoner into, next to a rattan barrel containing the body.\nJanuary 1930, guillotine was transported to Yen Bai to execute 13 Vietnamese Nationalist soldiers arrested during the Yen Bai uprising (led by Nguyen Thai Hoc). This barbaric weapon in the prison operated continuously, was used to circulate from one prison to another throughout the country of Tonkin.",
             "additional_detail": "Former political prisoner tells about the guillotine of the French colonialists at Hoa Lo Prison.\nEvery time he returns to visit the place that was once imprisoned by the French colonialists, in the heart of former political prisoner Nguyen Tien Ha, head of the committee contacting the revolutionary soldiers who were imprisoned by the enemy at Hoa Lo Prison was filled with emotions and tears in their eyes. Now, this revolutionary soldier is more than 90 years old, but the painful images that he witnessed when the French colonialists executed their comrades with the guillotine were still etched in his mind and when he recalled the At that scene, the old political prisoner's heart seemed to be strangled.\nFormer political prisoner Nguyen Tien Ha said: This guillotine was used by the French colonialists to carry out the highest sentence, which is the death penalty, for political prisoners. stood up against them. The guillotine has appeared since the years when the French colonialists built Hoa Lo Prison.\nOnce the French colonialists brought the guillotine to the door of Hoa Lo Prison to execute revolutionary soldiers and threaten the spirit of the people. other prisoners; at the same time to intimidate people who dare not resist them. After that time, they took the guillotine to the execution ground for execution.\n\"I have witnessed the French colonialists use this guillotine to execute revolutionary soldiers. At that time, I was the Secretary of the branch. At that time, the French colonialists openly used this guillotine on a revolutionary soldier, and then they all tried it in secret for fear of the soldiers. struggle\", recalled former political prisoner Nguyen Tien Ha.\nFormer political prisoner Nguyen Tien Ha said: \"Before sending our soldiers to be executed, we all knew. when they were about to take the prisoners to the execution ground, we all shouted protests and even went on a hunger strike. I was the leader of the hunger strike movement for a week to protest the death penalty. At school, we often heard the sound of the French colonialist's shoes, we knew immediately that something was wrong and everyone rushed to the door of the cell, shouting slogans such as: \"Objection against French colonialism\", \"Objection against the French colonialists\". death penalty\"…; and the comrades who were led to the execution very resolutely before leaving also shouted: \"The French colonialists take me to the execution ground, comrades stay healthy, fight to protect the homeland, President Ho Chi Minh wishes year; Long live independent and unified Vietnam!\" At that time, the atmosphere in the Prison was full of fighting spirit. At that time, there were bowls, plates or other objects in the cell that we took and threw out the door to protest.\"",
             "video_title": "Guillotine",
-            "video_detail": "Guillotine"
+            "video_detail": "Not many people may know, but the guillotine currently on display at the Hỏa Lò Prison Museum is an original artifact. The towering guillotine is designed with two wooden pillars, each 4 meters tall, with a blade held high by a latch. Below, there is another horizontal beam and a narrow frame where the condemned would place their head. Two boards, each with a semicircular cut-out, come together to form two circles, securing the condemned's neck above and below for the blade to fall in between. Inside the pillars are two grooves allowing the blade to fall straight down. Below is a metal container to catch the head of the condemned, and next to it is a woven bamboo basket to hold the body. This very guillotine claimed the lives of many patriotic revolutionary fighters and stands as a testament to the bravery and unyielding spirit of those who faced its blade."
         }
     }
 ]

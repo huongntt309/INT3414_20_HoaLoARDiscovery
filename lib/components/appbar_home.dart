@@ -20,8 +20,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
             image: DecorationImage(
               image: AssetImage(
                 title == "AI Chatbot"
-                    ? 'image/home/bg_app_bar_ai.png' // Hình nền khác khi title là "AIchatbot"
-                    : 'image/home/bg_app_bar.png', // Hình nền mặc định
+                    ? 'assets/image/home/bg_app_bar_ai.png' // Hình nền khác khi title là "AIchatbot"
+                    : 'assets/image/home/bg_app_bar.png', // Hình nền mặc định
               ),
               fit: BoxFit.cover,
             ),

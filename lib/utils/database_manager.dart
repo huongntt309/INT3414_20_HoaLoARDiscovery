@@ -56,6 +56,6 @@ class DatabaseManager {
   List<DatabaseItem> database = [];
 
   Future<void> loadDatabase() async {
-    database = await _dataManager.loadDatabase('database/db_items.json');
+    database = await _dataManager.loadDatabase('assets/database/db_items.json');
   }
 }

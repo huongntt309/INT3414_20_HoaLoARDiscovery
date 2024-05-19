@@ -24,9 +24,9 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
   final TextEditingController _userMessage = TextEditingController();
   bool isLoading = false;
 
-  static const apiKey = "YOUR_API_KEY";
+  static const apiKey = "AIzaSyC8K0FUcdKgreMc61p1YyXe1yJi8PNrCAM";
   // static const apiKey = "";
-  
+
   // Get API key from https://aistudio.google.com/app/apikey
   final model =
       GenerativeModel(model: "gemini-1.5-flash-latest", apiKey: apiKey);
@@ -92,7 +92,7 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
           color: Color(0xFFFDEEDB),
           image: DecorationImage(
             image: AssetImage(
-                'image/home/bg_home.jpg'), // Thay đường dẫn tới hình ảnh của bạn
+                'assets/image/home/bg_home.jpg'), // Thay đường dẫn tới hình ảnh của bạn
             fit: BoxFit.cover,
           ),
         ),

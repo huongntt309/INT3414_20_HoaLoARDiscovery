@@ -28,7 +28,7 @@ class DetailScreen extends StatelessWidget {
           color: Color(0xFFFDEEDB),
           image: DecorationImage(
             image: AssetImage(
-                'image/home/bg_detail.jpg'), // Thay đường dẫn tới hình ảnh của bạn
+                'assets/image/home/bg_detail.jpg'), // Thay đường dẫn tới hình ảnh của bạn
             fit: BoxFit.cover,
           ),
         ),
@@ -50,7 +50,7 @@ class DetailScreen extends StatelessWidget {
                       height: double.infinity, // Chiều cao tự động theo cha
                       child: CarouselSlider(
                         options: CarouselOptions(
-                          aspectRatio: 16 / 9, // Thay đổi tỷ lệ khung hình
+                          aspectRatio: 20 / 9, // Thay đổi tỷ lệ khung hình
                           viewportFraction:
                               0.9, // Chiếm 80% chiều rộng của màn hình
                           enlargeCenterPage: true, // Phóng to ảnh ở giữa

@@ -14,11 +14,11 @@ class CustomAppBarDetail extends StatelessWidget
     return Stack(
       children: [
         Container(
-          height: kToolbarHeight,
+          height: 100,
           decoration: const BoxDecoration(
             image: DecorationImage(
               image: AssetImage(
-                  'image/home/bg_app_bar_detail.png'), // Thay đổi đường dẫn đến hình ảnh của bạn
+                  'assets/image/home/bg_app_bar_detail.png'), // Thay đổi đường dẫn đến hình ảnh của bạn
               fit: BoxFit.cover,
             ),
           ),

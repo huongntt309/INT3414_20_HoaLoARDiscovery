@@ -1,7 +1,7 @@
 name: hoa_lo_ar_discovery
 description: "A new Flutter project."
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 0.0.1+1
 
@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.2.1  
+  http: ^1.2.1
   english_words: ^4.0.0
   provider: ^6.0.0
   animate_do: ^3.1.2
@@ -19,7 +19,7 @@ dependencies:
   carousel_slider: ^4.2.1
   floating_bottom_navigation_bar: ^1.5.2
   easy_settings: ^1.0.0
-  path_provider: ^2.0.5 
+  path_provider: ^2.0.5
   video_player: ^2.2.11 # Số phiên bản cụ thể có thể thay đổi
   chewie: ^1.7.5
   intl: ^0.19.0
@@ -27,7 +27,7 @@ dependencies:
   google_generative_ai: ^0.4.0
   animated_text_kit: ^4.2.2
   flutter_dotenv: ^5.1.0
-  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -59,6 +59,24 @@ flutter:
     - assets/image/item/trainam_02.jpg
     - assets/image/item/trainam_03.jpg
     - assets/database/db_items.json
+    - assets/image/item/canh_cua_nha_tu.jpg
+    - assets/image/item/trainu_02.jpg
+    - assets/image/item/trainu_01.jpg
+    - assets/image/item/trainu_03.jpg
+    - assets/image/item/cay_bang_tinh_nghia.jpg
+    - assets/image/item/cum_chan.jpg
+    - assets/image/item/dia_thia.jpg
+    - assets/image/item/bat.jpg
+    - assets/image/item/quan_ao.jpg
+    - assets/image/item/che_do_an_uong_1.jpg
+    - assets/image/item/che_do_an_uong_2.jpg
+    - assets/image/item/phi_cong_my_1.jpg
+    - assets/image/item/phi_cong_my_2.jpg
+    - assets/image/item/maychem_01.jpg
+    - assets/image/item/maychem_02.jpg
+    - assets/image/item/maychem_03.jpg
+    - assets/image/item/maychem_04.jpg
+    - assets/database/db_items.json
     - assets/video/hoalo_intro.mp4
+    - assets/video/hoalo_intro2.mp4
     - assets/languages/language.json
-  

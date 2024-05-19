@@ -19,7 +19,7 @@ class CustomNavbarDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.114,
+      height: MediaQuery.of(context).size.height * 0.128,
       child: FloatingNavbar(
         onTap: (int val) {
           // Thực hiện điều hướng đến tab mới

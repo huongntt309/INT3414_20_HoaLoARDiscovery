@@ -41,7 +41,7 @@ class _SettingScreenState extends State<SettingScreen> {
           color: Color(0xFFFDEEDB),
           image: DecorationImage(
             image: AssetImage(
-                'image/home/bg_home.jpg'), // Thay đường dẫn tới hình ảnh của bạn
+                'assets/image/home/bg_home.jpg'), // Thay đường dẫn tới hình ảnh của bạn
             fit: BoxFit.cover,
           ),
         ),

@@ -27,7 +27,7 @@ class LanguageManager {
   Map<String, dynamic> get languageData => _languageData;
 
   Future<void> loadLanguageData() async {
-    String data = await rootBundle.loadString('languages/language.json');
+    String data = await rootBundle.loadString('assets/languages/language.json');
     _languageData = json.decode(data);
   }
 

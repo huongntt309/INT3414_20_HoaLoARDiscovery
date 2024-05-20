@@ -1,47 +1,63 @@
-# hoa_lo_ar_discovery
+# Hoa Lo AR Discovery
+An Augmented Reality (AR) Flutter project centered around the Hoa Lo Prison.
 
-A new Flutter project.
+## Features
+Augmented Reality integration for interactive historical tours.
 
-## Install Dependencies:
+Cross-platform support: Web, Android, and iOS.
+
+User-friendly interface with intuitive navigation.
+
+Real-time updates and hot reload capabilities for seamless development.
+
+## Installation
+To get started with the project, ensure you have Flutter installed. Then, clone the repository and install the dependencies:
 
 ```
+git clone https://github.com/your-username/hoa_lo_ar_discovery.git
+cd hoa_lo_ar_discovery
 flutter pub get
 ```
-
-## How to Run Project
-
-1. INT3414_20_HoaLoARDiscovery> flutter run
-2. Press 2 to choose Chrome.
-   [1]: Windows (windows)
-   [2]: Chrome (chrome)
-   [3]: Edge (edge)
-3. A Dart VM Service on Chrome is available at: http://127.0.0.1:52350
-
-## How to Run Project with Hot Reload
-
-1. Start the App: Run the Flutter application using:
+## Running the Project
+To run the project, use the following commands:
 
 ```
 flutter run
 ```
+Select the desired device when prompted, for example, Chrome:
+```
+1. Windows (windows)
+2. Chrome (chrome)
+3. Edge (edge)
+```
 
-2. Make Changes: Edit your code in your editor.
+Hot Reload and Hot Restart
+Start the App: Run the Flutter application using flutter run.
 
-3. Hot Reload: Press r in the terminal where flutter run is running. Hot Reload updates the running app with the changes you made, without restarting the app. It preserves the current state of the app.
+Make Changes: Edit your code in your editor.
 
-4. Hot Restart: Press R in the terminal. Hot Restart restarts the app and applies the new code, but it does not preserve the app's state.
+Hot Reload: Press r in the terminal where flutter run is running. This updates the running app with your changes without restarting it.
 
-## Build the project on android phone
+Hot Restart: Press R in the terminal. This restarts the app and applies the new code but does not preserve the app's state.
 
-1. Make sure your android phone connected via USB
-2. Build an apk using the following command :
+## Building for Android
+To build and install the application on an Android device, follow these steps:
 
+Connect your Android device via USB.
+
+Build the APK:
 ```
 flutter build apk
 ```
-
-3. Install the apk on your device
-
+Install the APK on your device:
 ```
 flutter install
 ```
+## Contributing
+We welcome contributions to enhance the functionality and features of this project. Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -m 'Add new feature').
+4. Push to the branch (git push origin feature-branch).
+5. Create a pull request.

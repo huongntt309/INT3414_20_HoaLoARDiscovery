@@ -1,9 +1,10 @@
 # Hoa Lo AR Discovery
-An Augmented Reality (AR) Flutter project centered around the Hoa Lo Prison.
+A Flutter project centered around the Hoa Lo Prison.
+
+[![Watch the video](https://img.youtube.com/vi/7sWk0EM0N1I/0.jpg)](https://www.youtube.com/shorts/7sWk0EM0N1I)
+
 
 ## Features
-Augmented Reality integration for interactive historical tours.
-
 Cross-platform support: Web, Android, and iOS.
 
 User-friendly interface with intuitive navigation.
